@@ -42,7 +42,7 @@ define (require) ->
             @ctx.translate(@x + @length*.5, @y)
             @ctx.rotate(@angle/3*15 * Math.PI/180)
             @ctx.translate(floor(-@length*.5), 0)
-            @ctx.fillStyle = 'rgba(255, 173, 18, 0.8)'
+            @ctx.fillStyle = 'rgba(255, 216, 0, 0.8)'
             @ctx.fillRect(0, 0, @length, 3)
             @ctx.restore()
         

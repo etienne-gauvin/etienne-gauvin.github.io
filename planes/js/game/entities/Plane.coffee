@@ -4,6 +4,7 @@ define (require) ->
     Entity = require 'cs!game/core/Entity'
     Bullet = require 'cs!game/entities/Bullet'
     BulletFireShotSprite = require 'cs!game/entities/BulletFireShotSprite'
+    Explosion = require 'cs!game/entities/Explosion'
     floor = Math.floor
     
     class Plane extends Entity
@@ -22,6 +23,7 @@ define (require) ->
             # Booléens pour déplacer l'avion verticalement
             @goUp = @goDown = @goForward = @goBackward = no
             
+            # Vitesse
             @vel =
                 x: @vel.x
                 y: @vel.y
@@ -59,6 +61,12 @@ define (require) ->
                 ammo: 100
                 fireShotSprite: new BulletFireShotSprite @
             
+            # Santé de l'avion
+            @health = 100
+            @destroyed = no
+            
+            @parent.addChild new Explosion @parent, @x, @y
+            
         
         # Mise à jour
         # @param Number dt
@@ -66,6 +74,8 @@ define (require) ->
             @updateVelocity(dt)
             @updatePosition(dt)
             @updateGun(dt)
+            @updateHealth(dt)
+            @updateChildren(dt)
         
         # Représentation de la vitesse verticale de l'avion
         # comprise entre -1 (min) et 1 (max)
@@ -91,10 +101,22 @@ define (require) ->
                           0, 0,
                           @width, @height)
             
+            @drawChildren()
+            
+            if @destroyed
+                @ctx.globalCompositeOperation = 'difference'
+                @ctx.globalAlpha = 0.6
+                @ctx.drawImage(@image,
+                              0, @height * (frame + 3),
+                              @width, @height,
+                              0, 0,
+                              @width, @height)
+            
             @gun.fireShotSprite.handleDraw()
             
             @ctx.restore()
-        
+    
+            
         
         # Appliquer le déplacement vertical
         updateVelocity: (dt) ->
@@ -114,6 +136,10 @@ define (require) ->
                 @vel.x += (@vel.x / @vel.xmin) * @vel.loss.forward   * dt if @vel.x < 0
                 @vel.x -= (@vel.x / @vel.xmax) * @vel.loss.backward  * dt if @vel.x > 0
             
+            # Faire tomber l'avion si celui-ci est détruit
+            if @destroyed
+                @vel.y += dt * 700
+            
             # Limiter la vitesse
             @vel.y = @vel.ymax if @vel.y > @vel.ymax
             @vel.y = @vel.ymin if @vel.y < @vel.ymin
@@ -132,7 +158,17 @@ define (require) ->
                 
                 @gun.fireShotSprite.run()
                 @parent.addChild new Bullet(@, shotAngle)
+        
+        # Gérer la santé de l'avion
+        updateHealth: (dt) ->
+            if @health <= 0 
+                if not @destroyed
+                    @explode()
                 
+                else if @isOffGameScreen()
+                    @parent.removeChild @
+                    log "OVER"
+        
         # Garder l'avion dans les limites de l'écran
         updateVelocityToKeepOnScreen: ->
             
@@ -154,4 +190,14 @@ define (require) ->
             # Limitation à gauche
             if @vel.x > 0 and @parent.width - @x - @width < padding
                 @vel.x *= Math.pow(((@parent.width - @x - @width) / padding), 0.1) or 0
-                
+        
+        
+        # Détruire
+        explode: (callback) ->
+            
+            @destroyed = yes
+            x = @x + @width / 2
+            y = @y + @height / 2 + (@getYSpeedPercentage() + 0.1) * 16
+            
+            @addChild(new Explosion @, @width/2, @height/2)
+            

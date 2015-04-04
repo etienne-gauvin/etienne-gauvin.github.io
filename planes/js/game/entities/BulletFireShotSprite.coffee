@@ -15,7 +15,7 @@ define (require) ->
             @width = 16 * 3
             @height = 7 * 3
             
-            @t = 0
+            @t = 10
             @duration = 0.1
             @imgN = 0
             
@@ -42,7 +42,6 @@ define (require) ->
                     @width,
                     @height)
                 
-                log @lumImage.height
                 @ctx.drawImage(
                     @lumImage,
                     @parent.width - @lumImage.width / 2,

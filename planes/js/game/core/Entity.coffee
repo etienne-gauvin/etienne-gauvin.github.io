@@ -20,8 +20,8 @@ define (require) ->
             @width = @height = 0
             
             # Centre absolu de l'objet, en fonction de sa taille (read only)
-            @get 'centerX', => @x + Math.cos(@angle) * @width / 2
-            @get 'centerY', => @y + Math.sin(@angle - Math.PI) * @height / 2
+            @get 'centerX', => @x + Math.cos(@angle) * 10#@width / 2
+            @get 'centerY', => @y + Math.sin(@angle + Math.PI*0) * 10#@height / 2
             @set 'centerX', =>
             @set 'centerY', =>
             

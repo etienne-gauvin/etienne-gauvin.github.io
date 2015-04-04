@@ -18,7 +18,6 @@ define (require) ->
             # Munitions
             @gun.ammoMax = 40
             @gun.ammo = 40
-            
         
         # Mise à jour
         # @param Number dt
@@ -26,18 +25,28 @@ define (require) ->
             
             kb = @game.keyboard
             
-            @goUp = kb.isDown(kb.UP) or kb.isDown(kb.Z)
-            @goDown = kb.isDown(kb.DOWN) or kb.isDown(kb.S)
-            @goForward = kb.isDown(kb.RIGHT) or kb.isDown(kb.D)
-            @goBackward = kb.isDown(kb.LEFT) or kb.isDown(kb.Q)
+            @health = 0 if kb.isDown(88)
             
-            @gun.shoot = kb.isDown(kb.SPACE)
+            if not @destroyed
+                @goUp = kb.isDown(kb.UP) or kb.isDown(kb.Z)
+                @goDown = kb.isDown(kb.DOWN) or kb.isDown(kb.S)
+                @goForward = kb.isDown(kb.RIGHT) or kb.isDown(kb.D)
+                @goBackward = kb.isDown(kb.LEFT) or kb.isDown(kb.Q)
+                
+                @gun.shoot = kb.isDown(kb.SPACE)
+            else
+                @goUp = @goDown = @goForward = @goBackward = no
+                @gun.shoot = no
             
             @updateVelocity(dt)
-            @updateVelocityToKeepOnScreen(dt)
+            
+            if not @destroyed
+                @updateVelocityToKeepOnScreen(dt)
             
             @updatePosition(dt)
             @updateGun(dt)
+            @updateHealth(dt)
+            @updateChildren(dt)
             
             if @isOffGameScreen()
                 @x = 10
