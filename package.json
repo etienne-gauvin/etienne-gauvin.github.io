@@ -1,0 +1,14 @@
+{
+  "name": "@myco/private-pkg",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/etienne-gauvin/etienne-gauvin.github.io"
+  },
+  "scripts": {
+    "build": "coffee src/build-index.coffee && compass compile src/stylesheets/"
+  },
+  "devDependencies": {
+    "handlebars": "^3.0.1"
+  }
+}

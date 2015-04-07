@@ -1,0 +1,34 @@
+
+.navigation {
+  font-family: $title-font-family;
+  font-size: 24px;
+  margin-top: 40px;
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  a {
+    display: block;
+    padding: 2px;
+    color: $secondary-color;
+    text-decoration: none;
+    position: relative;
+    top: 0;
+    left: 0;
+    @include transition(200ms ease-in-out);
+    text-shadow: -1px 1px rgba(0, 0, 0, 0.4);
+    
+    &:hover, &:focus {
+      color: #57c497;
+      top: -2px;
+      left: 1px;
+      text-shadow:
+         0px 1px #1E2624,
+        -1px 2px #1E2624,
+        -2px 3px #1E2624,
+        1px 2px 20px rgba(55, 148, 110, 0.3);
+    }
+  }
+}

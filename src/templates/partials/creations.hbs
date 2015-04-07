@@ -1,0 +1,31 @@
+<section id="Créations" class="wrapper-section creations">
+    <h2>Creations</h2>
+    <ul class='item-list'>
+        {{#each projects}}
+        <li>
+            <article>
+                <header>
+                    <h3>{{name}}</h3>
+                    <ul class="tags">
+                    {{#each tags}}
+                        <li>{{this}}</li>
+                    {{/each}}
+                    </ul>
+                </header>
+                
+                <p>{{{description}}}</p>
+                
+                <ul class="links">
+                {{#each links}}
+                    <li><a href="{{href}}">{{text}}</a></li>
+                {{/each}}
+                </ul>
+
+                {{#each images}}
+                <figure><img src="{{src}}" alt="{{alt}}" title="{{alt}}"></figure>
+                {{/each}}
+            </article>
+        </li>
+        {{/each}}
+    </ul>
+</section>

@@ -1,0 +1,154 @@
+{
+    "projects": [
+        {
+            "visible": false,
+            "name": "Planes - en developpement",
+            "tags": [ "Jeu", "CoffeeScript", "API Canvas" ],
+            "description": "Ceci est un petit shooter à défilement horizontal. Aux commandes d'un petit avion, vous devrez décimer les hordes d'ennemis s'abattant sur vous. Le nom du jeu n'est pas définitif.",
+            "links": [
+                {
+                    "text": "Code source sur GitHub",
+                    "href": "https://github.com/etienne-gauvin/planes/"
+                },
+                {
+                    "text": "Essayer dans le navigateur (en cours de développpement)",
+                    "href": "./projects/planes"
+                }
+            ],
+            "images": [
+                {
+                    "src": "assets/images/projects/planes-sprites.png",
+                    "alt": "Sprites de l'avion"
+                },
+                {
+                    "src": "assets/images/projects/planes.png",
+                    "alt": "Capture du jeu"
+                }
+            ]
+        },
+        {
+            "visible": false,
+            "name": "Clicliclick",
+            "tags": [ "Jeu", "JavaScript", "API Canvas", "NodeJS", "Socket.IO" ],
+            "description": "Un petit jeu de plateau multijoueur en ligne, réalisé en JavaScript et à l'aide de l'API Canvas pour l'affichage, de NodeJS pour la partie serveur, et de Socket.IO pour la communicationen temps réel. Le but du jeu est de capturer plus de points que son adversaire avant la fin du temps imparti ; il est semblable au <i>Rollit</i>, à ceci près que tous les joueurs peuvent modifier le plateau en même temps. Le jeu se base donc sur la rapidité d'action et de réflexion.",
+            "links": [
+                {
+                    "text": "Code source sur GitHub",
+                    "href": "https://github.com/etienne-gauvin/clicliclick/"
+                }
+            ],
+            "images": [
+                {
+                    "src": "assets/images/projects/clicliclick.png",
+                    "alt": "Clicliclick"
+                }
+            ]
+        },
+        {
+            "visible": false,
+            "name": "Le Petit Chaperon rouge",
+            "tags": [ "Jeu", "Lua", "LÖVE 2D" ],
+            "description": "Ce jeu est un platformer 2D plutôt classique, dont l'histoire se base sur le fameux conte de Perrault. C'est le premier jeu que j'ai fait en équipe avec 2 camarades, dans le cadre de la formation SRC, et en tant que notre projet tuteuré de 2<sup>ème</sup> année.",
+            "links": [
+                {
+                    "text": "Code source sur GitHub",
+                    "href": "https://github.com/etienne-gauvin/projet-tut/"
+                }
+            ],
+            "images": [
+                {
+                    "src": "assets/images/projects/chaperon.png",
+                    "alt": "Le Petit Chaperon rouge"
+                }
+            ]
+        },
+        {
+            "visible": true,
+            "name": "API Allocine Helper",
+            "tags": [ "PHP" ],
+            "description": "L'API Allociné Helper est un ensemble de classes PHP permettant d'utiliser plus simplement l'API d'AlloCiné. Il est possible de récupérer des informations sur les films, stars, séries TV, cinémas, etc...<br />Ce script évolue depuis maintenant plus de 4 ans, et est (et a été) utilisé par de nombreux développeurs.",
+            "links": [
+                {
+                    "text": "Code source sur GitHub",
+                    "href": "https://github.com/etienne-gauvin/api-allocine-helper"
+                }
+            ]
+        },
+        {
+            "visible": true,
+            "name": "L'invasion des envahisseurs",
+            "tags": [ "Jeu", "JavaScript", "API Canvas" ],
+            "description": "C'est un mini-jeu (un shoot 'em up) par navigateur. Aux commandes d'un petit vaisseau spatial, votre but est de résister le plus longtemps possible à des vagues d'ennemis de plus en plus coriaces. Ce jeu a été programmé en Javascript à l'aide du framework Gambas.",
+            "links": [
+                {
+                    "text": "Code source sur GitHub",
+                    "href": "https://github.com/etienne-gauvin/invasion-des-envahisseurs/"
+                },
+                {
+                    "text": "Essayer dans le navigateur",
+                    "href": "./projects/invasion"
+                }
+            ],
+            "images": [
+                {
+                    "src": "assets/images/projects/invasion.png",
+                    "alt": "Capture du jeu"
+                }
+            ]
+        },
+        {
+            "visible": true,
+            "name": "DUO Coiffure",
+            "tags": [ "HTML5/CSS3", "PHP", "JavaScript" ],
+            "description": "Le site web du salon DUO Coiffure de Blois. Ce fut une première et très bonne expérience de projet réalisé pour un client.",
+            "links": [
+                {
+                    "text": "DUOCoiffure.com",
+                    "href": "http://www.duocoiffure.com/"
+                }
+            ]
+        },
+        {
+            "visible": true,
+            "name": "Partage de fichiers",
+            "tags": [ "HTML5/CSS3", "JavaScript", "NodeJS", "Socket.IO" ],
+            "description": "Cette petite application web était simplement une occasion d'essayer NodeJS et les nouvelles fonctionnalités founies en HTML5 : l'envoi de fichier sans rechargement, le drag-and-drop, et les WebSockets (avec Socket.IO). Le résultat est un chat en ligne assez complet, et un “répertoire” public de fichiers, le tout sur une seule page.",
+            "links": [
+                {
+                    "text": "Code source sur GitHub",
+                    "href": "https://github.com/etienne-gauvin/partage/"
+                }
+            ],
+            "images": [
+                {
+                    "src": "assets/images/projects/partage.png",
+                    "alt": "Capture d'écran du chat et du partage de fichiers"
+                }
+            ]
+        },
+        {
+            "visible": true,
+            "name": "Emploi du temps des etudiants de l'IUT de Blois",
+            "tags": [ "HTML5/CSS3", "JavaScript", "NodeJS", "MongoDB" ],
+            "description": "Un emploi du temps alternatif pour les élèves de l'IUT de Blois, et adapté spécialement pour les mobiles : il peut fonctionner hors-ligne comme une application. Ce fut une première occasion de tester l'utilisation de NodeJS avec Express 3 et MongoDB.",
+            "links": [
+                {
+                    "text": "Code source sur GitHub",
+                    "href": "https://github.com/etienne-gauvin/invasion-des-envahisseurs/"
+                }
+            ]
+        },
+        {
+            "visible": true,
+            "name": "Blois dans tous ses etats",
+            "tags": [ "HTML5/CSS3", "JavaScript" ],
+            "description": "Un site web et une vidéo sur le thème imposé “Être étudiant à Blois”, réalisés en 24h dans le cadre de la formation SRC (1ère année). Sur 14 équipes de 5 étudiants, nous étions les gagnants choisis par l'équipe enseignante. Le site est réalisé en HTML5/CSS3, avec du Javascript pour ajouter un peu d'interactivité.",
+            "links": [
+                {
+                    "text": "Code source sur GitHub",
+                    "href": "https://github.com/etienne-gauvin/partage/"
+                }
+            ]
+        }
+    ]
+}

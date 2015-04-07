@@ -1,0 +1,22 @@
+.wrapper-section.competences {
+
+  h3 {
+    font-weight: normal;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 18px;
+      color: $secondary-color;
+    
+    &:before {
+      content: "I ";
+      color: rgba($secondary-color, 0.4);
+    }
+  }
+  
+  p {
+    margin-top: 10px;
+    margin-left: 40px;
+    line-height: 1.2;
+  }
+  
+}
