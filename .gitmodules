@@ -1,0 +1,3 @@
+[submodule "projects/invasion-des-envahisseurs"]
+	path = projects/invasion-des-envahisseurs
+	url = https://github.com/etienne-gauvin/invasion-des-envahisseurs
