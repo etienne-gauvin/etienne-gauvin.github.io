@@ -142,13 +142,7 @@
             "visible": true,
             "name": "Blois dans tous ses etats",
             "tags": [ "HTML5/CSS3", "JavaScript" ],
-            "description": "Un site web et une vidéo sur le thème imposé “Être étudiant à Blois”, réalisés en 24h dans le cadre de la formation SRC (1ère année). Sur 14 équipes de 5 étudiants, nous étions les gagnants choisis par l'équipe enseignante. Le site est réalisé en HTML5/CSS3, avec du Javascript pour ajouter un peu d'interactivité.",
-            "links": [
-                {
-                    "text": "Code source sur GitHub",
-                    "href": "https://github.com/etienne-gauvin/partage/"
-                }
-            ]
+            "description": "Un site web et une vidéo sur le thème imposé “Être étudiant à Blois”, réalisés en 24h dans le cadre de la formation SRC (1ère année). Sur 14 équipes de 5 étudiants, nous étions les gagnants choisis par l'équipe enseignante. Le site est réalisé en HTML5/CSS3, avec du Javascript pour ajouter un peu d'interactivité."
         }
     ]
 }
