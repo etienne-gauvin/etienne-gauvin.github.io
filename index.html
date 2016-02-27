@@ -1,290 +1,515 @@
 <!DOCTYPE html>
-<html lang="fr">
-    <head>
-        <meta charset="utf-8">
+<html lang="en" itemscope="" itemtype="http://schema.org/WebPage">
+	<head>
+		<meta charset="UTF-8" />
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-
-        <title>Etienne Gauvin - développeur web</title>
-
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
         <meta name="HandheldFriendly" content="True">
         <meta name="MobileOptimized" content="320">
-        <meta name="apple-mobile-web-app-capable" content="yes">
-        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-        <meta name="description" content="Étudiant en développeur web (HTML5, CSS3, SASS/Compass, Javascript, jQuery, NodeJS, PHP), amateur de graphisme et de jeux vidéo (Javascript, Lua)">
+		<title>Étienne Gauvin</title>
+        <meta name="description" content="Game/level designer and web dev.">
 
-        <link href="assets/images/favicon.ico" rel="shortcut icon" type="image/x-icon">
-        <link href="assets/images/apple-touch-icon-precomposed.png" rel="apple-touch-icon">
-        
-        <link rel="stylesheet" href="assets/style.css">
-    </head>
-    <body>
-        
-        <main id="container" role="main" class="container">
+		<link rel="stylesheet" type="text/css" href="/assets/stylesheets/style.css">
+		
+		<!--<link rel="stylesheet/less" type="text/css" href="/src/style.less">
+		<script src="/assets/javascripts/less.min.js" type="text/javascript"></script>-->
+	</head>
+	<body>
+		<header id="page_header" class="page-header">
+			<h1>
+				<a href="/">
+					<img
+						src="/assets/images/logo.png"
+						alt="etn"
+						title="Étienne Gauvin"
+						width="1200"
+						height="1200"
+						/>
+					</a>
+			</h1>
+			
+			<nav role="Navigation">
+				<ul>
+					<li><a href="/#video_games&level_design&unreal_engine">games</a></li>
+					<li><a href="/#web&javascript&nodejs&socket.io">dev</a></li>
+					<li><a href="/#graphic_design&drawings&glitch_art&pixel_art&blender">design</a></li>
+				</ul>
+			</nav>
+		</header>
 
-            <div class="cover">
-              <div class="cover-container">
-                <header role="banner" class="header">
-                  <h1><a href="#"><img src="assets/images/etienne-gauvin.png" alt="Etienne Gauvin" /></a></h1>
-                </header>
-                
-                <nav role="navigation" class="navigation">
-                  <ul>
-                    <li><a href="#Créations">Creations</a></li>
-                    <li><a href="#Compétences">Competences</a></li>
-                    <li><a href="#Contact">Contact</a></li>
-                    <li><a href="https://github.com/etienne-gauvin" target="_blank">Github</a></li>
-                  </ul>
-                </nav>  </div>
-            </div>            
-            <div class="wrapper">
-                <div class="wrapper-container">
-                    
-                    <section class="wrapper-section intro">
-                      <p class='intro'>
-                          Bonjour ! Je suis étudiant et développeur web, avec un penchant pour les jeux vidéo.<br />
-                          Vous pouvez retrouver la plupart de mes projets <a target="_blank" href="https://github.com/etienne-gauvin">sur GitHub</a> ou sur cette page.
-                      </p>
-                      <!--<p class='stage'><small>( i )</small> Je suis à la recherche d'un stage du 7 Avril au 27 Juin et ouvert à toute proposition.<br /><a href="#Contact">Contactez-moi</a> pour d'avantage de détails !</p>-->
-                    </section>
-                    
-                    <section id="Créations" class="wrapper-section creations">
-                        <h2>Creations</h2>
-                        <ul class='item-list'>
-                            <li>
-                                <article>
-                                    <header>
-                                        <h3>Planes - en developpement</h3>
-                                        <ul class="tags">
-                                            <li>Jeu</li>
-                                            <li>CoffeeScript</li>
-                                            <li>API Canvas</li>
-                                        </ul>
-                                    </header>
-                                    
-                                    <p>Ceci est un petit shooter à défilement horizontal. Aux commandes d'un petit avion, vous devrez décimer les hordes d'ennemis s'abattant sur vous. Le nom du jeu n'est pas définitif.</p>
-                                    
-                                    <ul class="links">
-                                        <li><a href="https://github.com/etienne-gauvin/planes/">Code source sur GitHub</a></li>
-                                        <li><a href="./projects/planes">Essayer dans le navigateur (en cours de développpement)</a></li>
-                                    </ul>
-                    
-                                    <figure><img src="assets/images/projects/planes-sprites.png" alt="Sprites de l&#x27;avion" title="Sprites de l&#x27;avion"></figure>
-                                    <figure><img src="assets/images/projects/planes.png" alt="Capture du jeu" title="Capture du jeu"></figure>
-                                </article>
-                            </li>
-                            <li>
-                                <article>
-                                    <header>
-                                        <h3>Clicliclick</h3>
-                                        <ul class="tags">
-                                            <li>Jeu</li>
-                                            <li>JavaScript</li>
-                                            <li>API Canvas</li>
-                                            <li>NodeJS</li>
-                                            <li>Socket.IO</li>
-                                        </ul>
-                                    </header>
-                                    
-                                    <p>Un petit jeu de plateau multijoueur en ligne, réalisé en JavaScript et à l'aide de l'API Canvas pour l'affichage, de NodeJS pour la partie serveur, et de Socket.IO pour la communicationen temps réel. Le but du jeu est de capturer plus de points que son adversaire avant la fin du temps imparti ; il est semblable au <i>Rollit</i>, à ceci près que tous les joueurs peuvent modifier le plateau en même temps. Le jeu se base donc sur la rapidité d'action et de réflexion.</p>
-                                    
-                                    <ul class="links">
-                                        <li><a href="https://github.com/etienne-gauvin/clicliclick/">Code source sur GitHub</a></li>
-                                    </ul>
-                    
-                                    <figure><img src="assets/images/projects/clicliclick.png" alt="Clicliclick" title="Clicliclick"></figure>
-                                </article>
-                            </li>
-                            <li>
-                                <article>
-                                    <header>
-                                        <h3>Le Petit Chaperon rouge</h3>
-                                        <ul class="tags">
-                                            <li>Jeu</li>
-                                            <li>Lua</li>
-                                            <li>LÖVE 2D</li>
-                                        </ul>
-                                    </header>
-                                    
-                                    <p>Ce jeu est un platformer 2D plutôt classique, dont l'histoire se base sur le fameux conte de Perrault. C'est le premier jeu que j'ai fait en équipe avec 2 camarades, dans le cadre de la formation SRC, et en tant que notre projet tuteuré de 2<sup>ème</sup> année.</p>
-                                    
-                                    <ul class="links">
-                                        <li><a href="https://github.com/etienne-gauvin/projet-tut/">Code source sur GitHub</a></li>
-                                    </ul>
-                    
-                                    <figure><img src="assets/images/projects/chaperon.png" alt="Le Petit Chaperon rouge" title="Le Petit Chaperon rouge"></figure>
-                                </article>
-                            </li>
-                            <li>
-                                <article>
-                                    <header>
-                                        <h3>API Allocine Helper</h3>
-                                        <ul class="tags">
-                                            <li>PHP</li>
-                                        </ul>
-                                    </header>
-                                    
-                                    <p>L'API Allociné Helper est un ensemble de classes PHP permettant d'utiliser plus simplement l'API d'AlloCiné. Il est possible de récupérer des informations sur les films, stars, séries TV, cinémas, etc...<br />Ce script évolue depuis maintenant plus de 4 ans, et est (et a été) utilisé par de nombreux développeurs.</p>
-                                    
-                                    <ul class="links">
-                                        <li><a href="https://github.com/etienne-gauvin/api-allocine-helper">Code source sur GitHub</a></li>
-                                    </ul>
-                    
-                                </article>
-                            </li>
-                            <li>
-                                <article>
-                                    <header>
-                                        <h3>L&#x27;invasion des envahisseurs</h3>
-                                        <ul class="tags">
-                                            <li>Jeu</li>
-                                            <li>JavaScript</li>
-                                            <li>API Canvas</li>
-                                        </ul>
-                                    </header>
-                                    
-                                    <p>C'est un mini-jeu (un shoot 'em up) par navigateur. Aux commandes d'un petit vaisseau spatial, votre but est de résister le plus longtemps possible à des vagues d'ennemis de plus en plus coriaces. Ce jeu a été programmé en Javascript à l'aide du framework Gambas.</p>
-                                    
-                                    <ul class="links">
-                                        <li><a href="https://github.com/etienne-gauvin/invasion-des-envahisseurs/">Code source sur GitHub</a></li>
-                                        <li><a href="./projects/invasion-des-envahisseurs">Essayer dans le navigateur</a></li>
-                                    </ul>
-                    
-                                    <figure><img src="assets/images/projects/invasion.png" alt="Capture du jeu" title="Capture du jeu"></figure>
-                                </article>
-                            </li>
-                            <li>
-                                <article>
-                                    <header>
-                                        <h3>DUO Coiffure</h3>
-                                        <ul class="tags">
-                                            <li>HTML5/CSS3</li>
-                                            <li>PHP</li>
-                                            <li>JavaScript</li>
-                                        </ul>
-                                    </header>
-                                    
-                                    <p>Le site web du salon DUO Coiffure de Blois. Ce fut une première et très bonne expérience de projet réalisé pour un client.</p>
-                                    
-                                    <ul class="links">
-                                        <li><a href="http://www.duocoiffure.com/">DUOCoiffure.com</a></li>
-                                    </ul>
-                    
-                                </article>
-                            </li>
-                            <li>
-                                <article>
-                                    <header>
-                                        <h3>Partage de fichiers</h3>
-                                        <ul class="tags">
-                                            <li>HTML5/CSS3</li>
-                                            <li>JavaScript</li>
-                                            <li>NodeJS</li>
-                                            <li>Socket.IO</li>
-                                        </ul>
-                                    </header>
-                                    
-                                    <p>Cette petite application web était simplement une occasion d'essayer NodeJS et les nouvelles fonctionnalités founies en HTML5 : l'envoi de fichier sans rechargement, le drag-and-drop, et les WebSockets (avec Socket.IO). Le résultat est un chat en ligne assez complet, et un “répertoire” public de fichiers, le tout sur une seule page.</p>
-                                    
-                                    <ul class="links">
-                                        <li><a href="https://github.com/etienne-gauvin/partage/">Code source sur GitHub</a></li>
-                                    </ul>
-                    
-                                    <figure><img src="assets/images/projects/partage.png" alt="Capture d&#x27;écran du chat et du partage de fichiers" title="Capture d&#x27;écran du chat et du partage de fichiers"></figure>
-                                </article>
-                            </li>
-                            <li>
-                                <article>
-                                    <header>
-                                        <h3>Emploi du temps des etudiants de l&#x27;IUT de Blois</h3>
-                                        <ul class="tags">
-                                            <li>HTML5/CSS3</li>
-                                            <li>JavaScript</li>
-                                            <li>NodeJS</li>
-                                            <li>MongoDB</li>
-                                        </ul>
-                                    </header>
-                                    
-                                    <p>Un emploi du temps alternatif pour les élèves de l'IUT de Blois, et adapté spécialement pour les mobiles : il peut fonctionner hors-ligne comme une application. Ce fut une première occasion de tester l'utilisation de NodeJS avec Express 3 et MongoDB.</p>
-                                    
-                                    <ul class="links">
-                                        <li><a href="https://github.com/etienne-gauvin/invasion-des-envahisseurs/">Code source sur GitHub</a></li>
-                                    </ul>
-                    
-                                </article>
-                            </li>
-                            <li>
-                                <article>
-                                    <header>
-                                        <h3>Blois dans tous ses etats</h3>
-                                        <ul class="tags">
-                                            <li>HTML5/CSS3</li>
-                                            <li>JavaScript</li>
-                                        </ul>
-                                    </header>
-                                    
-                                    <p>Un site web et une vidéo sur le thème imposé “Être étudiant à Blois”, réalisés en 24h dans le cadre de la formation SRC (1ère année). Sur 14 équipes de 5 étudiants, nous étions les gagnants choisis par l'équipe enseignante. Le site est réalisé en HTML5/CSS3, avec du Javascript pour ajouter un peu d'interactivité.</p>
-                                    
-                                    <ul class="links">
-                                        <li><a href="https://github.com/etienne-gauvin/partage/">Code source sur GitHub</a></li>
-                                    </ul>
-                    
-                                </article>
-                            </li>
-                        </ul>
-                    </section>                    
-                    <section id="Compétences" class="wrapper-section competences">
-                      <h2>Competences</h2>
-                      
-                      <h3>Web - front-end</h3>
-                      <p>
-                        Connaissance des langages HTML5, CSS3 (ainsi que Less et SASS), et Javascript (ainsi que CoffeeScript). Bonne connaissance des bibliothèques VanillaJS et jQuery, et de l'API Canvas.
-                      </p>
-                      
-                      <h3>Web - back-end</h3>
-                      <p>
-                        Connaissance des langages PHP (orienté objet) et Javascript (avec NodeJS et Express 3).
-                      </p>
-                      
-                      <h3>Bases de donnees</h3>
-                      <p>
-                        SQL (bon niveau) et MongoDB (bases).
-                      </p>
-                      
-                      <h3>Langues etrangeres</h3>
-                      <p>
-                        Bon niveau d’anglais général et d’anglais technique (parlé et compris), notions d’allemand.
-                      </p>
-                    </section>
-                    
-                    <section id="Contact" class="wrapper-section contact">
-                      <h2>Contact</h2>
-                      <p>
-                        Vous pouvez me contacter par téléphone au <a>06 31 73 58 67</a>, ou à l'adresse mail <span class='email'>etienne<span>@</span>gauvin.info</span>, et me retrouver <a target="_blank" href="https://twitter.com/etiennegauvin">sur Twitter</a>.
-                      </p>
-                    </section>
-                    
-                    <footer role="contentinfo" class="footer">
-                      <p><small>© . Tous droits reserves.</small></p>
-                    </footer>                    
-                </div>
-            </div>
-        </main>
-        
-        <!--<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')</script>
-        <script src="/javascripts/script.js"></script>-->
+		<div class="page">
+			<main role="main">
 
-        <script>
-            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+<div class="posts">
+	<form id="postsForm">
+			<label>
+				<input type="checkbox" name="tag" value="level design" />
+				<span>level design</span>
+			</label>
+			<label>
+				<input type="checkbox" name="tag" value="unreal engine" />
+				<span>unreal engine</span>
+			</label>
+			<label>
+				<input type="checkbox" name="tag" value="video games" />
+				<span>video games</span>
+			</label>
+			<label>
+				<input type="checkbox" name="tag" value="graphic design" />
+				<span>graphic design</span>
+			</label>
+			<label>
+				<input type="checkbox" name="tag" value="blender" />
+				<span>blender</span>
+			</label>
+			<label>
+				<input type="checkbox" name="tag" value="drawings" />
+				<span>drawings</span>
+			</label>
+			<label>
+				<input type="checkbox" name="tag" value="pixel art" />
+				<span>pixel art</span>
+			</label>
+			<label>
+				<input type="checkbox" name="tag" value="other" />
+				<span>other</span>
+			</label>
+			<label>
+				<input type="checkbox" name="tag" value="glitch art" />
+				<span>glitch art</span>
+			</label>
+			<label>
+				<input type="checkbox" name="tag" value="javascript" />
+				<span>javascript</span>
+			</label>
+			<label>
+				<input type="checkbox" name="tag" value="nodejs" />
+				<span>nodejs</span>
+			</label>
+			<label>
+				<input type="checkbox" name="tag" value="web" />
+				<span>web</span>
+			</label>
+			<label>
+				<input type="checkbox" name="tag" value="socket.io" />
+				<span>socket.io</span>
+			</label>
+			<label>
+				<input type="checkbox" name="tag" value="video" />
+				<span>video</span>
+			</label>
+	</form>
 
-            ga('create', 'UA-47472721-1', 'gauvin.info');
-            ga('send', 'pageview');
-        </script>
-    </body>
+
+	<ol class="posts">
+		<li data-id="139575169928" data-tags="level design, unreal engine, video games">
+				<article>
+					<a href="posts/139575169928-a-level-design-exercise-on-the-unreal-engine-a.html">
+						<header>
+						</header>
+
+							<figure>
+								<img
+									alt="Pic #139575169928"
+									src="http://40.media.tumblr.com/607c3f0c004cea0b734b7f768f174e90/tumblr_o2ruqrO2jj1ulfm54o1_500.jpg"
+									width="500"
+									height="500"
+									/>
+							</figure>
+
+								<p class="excerpt  fadeOut">A Level Design Exercise on the Unreal Engine. A level that I created in two weeks, with the Unreal Engine, for the Level...</p>
+							
+								<button class="more">More</button>
+						
+					</a>
+				</article>
+			</li>
+<li data-id="138263905128" data-tags="graphic design, blender, video games">
+				<article>
+					<a href="posts/138263905128-poster-for-the-game-exécute-made-with-blender.html">
+						<header>
+						</header>
+
+							<figure>
+								<img
+									alt="Pic #138263905128"
+									src="http://40.media.tumblr.com/c13d635f74b5e2e10264789a8c664194/tumblr_o1pa2a56sM1ulfm54o1_500.jpg"
+									width="500"
+									height="707"
+									/>
+							</figure>
+
+								<p class="excerpt  fadeOut">Poster for the game EXÉCUTE, made with Blender.</p>
+							
+								<button class="more">More</button>
+						
+					</a>
+				</article>
+			</li>
+<li data-id="136143701233" data-tags="graphic design, drawings">
+				<article>
+					<a href="posts/136143701233.html">
+						<header>
+						</header>
+
+							<figure>
+								<img
+									alt="Pic #136143701233"
+									src="http://41.media.tumblr.com/9fccc54322a4bc69a247ebbfc8ae5f59/tumblr_o03dx9RTvd1ulfm54o1_r1_1280.png"
+									width="983"
+									height="1552"
+									/>
+							</figure>
+
+							
+						
+					</a>
+				</article>
+			</li>
+<li data-id="136139911363" data-tags="graphic design, drawings">
+				<article>
+					<a href="posts/136139911363.html">
+						<header>
+						</header>
+
+							<figure>
+								<img
+									alt="Pic #136139911363"
+									src="http://40.media.tumblr.com/506790088aa24f58220e87635735ecfb/tumblr_o03b22cjGb1ulfm54o1_r2_500.png"
+									width="500"
+									height="354"
+									/>
+							</figure>
+
+							
+						
+					</a>
+				</article>
+			</li>
+<li data-id="136139153218" data-tags="graphic design, drawings">
+				<article>
+					<a href="posts/136139153218.html">
+						<header>
+						</header>
+
+							<figure>
+								<img
+									alt="Pic #136139153218"
+									src="http://40.media.tumblr.com/19b5382dc45ca371d4d2d8ee89adfa9e/tumblr_o03ahlsGq21ulfm54o1_r1_500.png"
+									width="500"
+									height="749"
+									/>
+							</figure>
+
+							
+						
+					</a>
+				</article>
+			</li>
+<li data-id="136133580628" data-tags="graphic design, drawings">
+				<article>
+					<a href="posts/136133580628.html">
+						<header>
+						</header>
+
+							<figure>
+								<img
+									alt="Pic #136133580628"
+									src="http://41.media.tumblr.com/0ee2f42302f8e5d8e9289c49a7a45a27/tumblr_o036b3VHna1ulfm54o1_r1_500.png"
+									width="500"
+									height="500"
+									/>
+							</figure>
+
+							
+						
+					</a>
+				</article>
+			</li>
+<li data-id="139567120483" data-tags="pixel art, graphic design, video games">
+				<article>
+					<a href="posts/139567120483-assets-created-for-a-beat-them-all-top-view-2d.html">
+						<header>
+						</header>
+
+							<figure>
+								<img
+									alt="Pic #139567120483"
+									src="http://45.media.tumblr.com/4d07fed556951494805f411885fb5b0e/tumblr_o2rn1hCSj21ulfm54o1_500.gif"
+									width="500"
+									height="500"
+									/>
+							</figure>
+
+								<p class="excerpt  fadeOut">Assets created for a beat them all top view 2D game in a gamejam, here are some of them. Made with Aseprite.</p>
+							
+								<button class="more">More</button>
+						
+					</a>
+				</article>
+			</li>
+<li data-id="139565500518" data-tags="graphic design, video games">
+				<article>
+					<a href="posts/139565500518-proposed-poster-for-a-gamejam.html">
+						<header>
+						</header>
+
+							<figure>
+								<img
+									alt="Pic #139565500518"
+									src="http://40.media.tumblr.com/1ad6bfad638ed2a0ec90802d252edbc5/tumblr_o2rljqX4kE1ulfm54o1_500.png"
+									width="500"
+									height="707"
+									/>
+							</figure>
+
+								<p class="excerpt ">Proposed poster for a gamejam.</p>
+							
+						
+					</a>
+				</article>
+			</li>
+<li data-id="140082879558" data-tags="other">
+				<article>
+					<a href="posts/140082879558-vaporwave.html">
+						<header>
+								<h1>Vaporwave</h1>
+						</header>
+
+
+							<p class="excerpt  fadeOut">A introduction -in french- to vaporwave (a subculture that emerged on the Internet in the early 2010s), posted on my blog un-petit-peu-de-musique.Link to the article.…</p>
+							<button class="more">More</button>
+						
+					</a>
+				</article>
+			</li>
+<li data-id="139909864313" data-tags="level design, video games">
+				<article>
+					<a href="posts/139909864313-a-level-design-exercise-uncharted-one-of-our.html">
+						<header>
+						</header>
+
+							<figure>
+								<img
+									alt="Pic #139909864313"
+									src="http://40.media.tumblr.com/12a5657165445e077f03014b06e20496/tumblr_o322eq0ad71ulfm54o1_500.png"
+									width="500"
+									height="500"
+									/>
+							</figure>
+
+								<p class="excerpt  fadeOut">A Level Design Exercise : Uncharted.  One of our first level design exercices : imagine a level for a Uncharted game. The level...</p>
+							
+								<button class="more">More</button>
+						
+					</a>
+				</article>
+			</li>
+<li data-id="140083392128" data-tags="glitch art, graphic design">
+				<article>
+					<a href="posts/140083392128-posted-on-rglitchart.html">
+						<header>
+						</header>
+
+							<figure>
+								<img
+									alt="Pic #140083392128"
+									src="http://41.media.tumblr.com/1cb9340cb8461a2c82edecb58b6b2699/tumblr_o37i6oEVwR1ulfm54o2_r1_500.png"
+									width="500"
+									height="372"
+									/>
+							</figure>
+
+								<p class="excerpt  fadeOut">Posted on /r/glitch_art/</p>
+							
+						
+					</a>
+				</article>
+			</li>
+<li data-id="133336718468" data-tags="javascript, pixel art, video games">
+				<article>
+					<a href="posts/133336718468-shootemup-with-side-scrolling-developed-from.html">
+						<header>
+						</header>
+
+								<figure>
+									<img
+										alt="Shoot&#x27;em&#x27;up with side scrolling, developed &quot;from scratch&quot; in JavaScript with the Canvas API. All images and animations were..."
+										src="http://41.media.tumblr.com/8836ba7770815360fff151839dcbe99d/tumblr_inline_o2rts00SL31tvh06d_540.jpg"
+										/>
+								</figure>
+
+							<p class="excerpt  fadeOut">Shoot'em'up with side scrolling, developed &ldquo;from scratch&rdquo; in JavaScript with the Canvas API. All images and animations were created with GIMP and Aseprite.Give it a trySee on GitHub…</p>
+							<button class="more">More</button>
+						
+					</a>
+				</article>
+			</li>
+<li data-id="136132797738" data-tags="graphic design, drawings">
+				<article>
+					<a href="posts/136132797738.html">
+						<header>
+						</header>
+
+							<figure>
+								<img
+									alt="Pic #136132797738"
+									src="http://40.media.tumblr.com/e61be5c9743676d48df2813d14b7fefd/tumblr_o035p5PRkP1ulfm54o1_r1_500.png"
+									width="500"
+									height="714"
+									/>
+							</figure>
+
+							
+						
+					</a>
+				</article>
+			</li>
+<li data-id="140083306408" data-tags="glitch art, graphic design">
+				<article>
+					<a href="posts/140083306408-made-with-gimp-and-some-javascript-posted-on.html">
+						<header>
+						</header>
+
+							<figure>
+								<img
+									alt="Pic #140083306408"
+									src="http://40.media.tumblr.com/1ed182227cdd421e7bd381fd2a18e9a1/tumblr_o37i1wfcWY1ulfm54o1_1280.png"
+									width="793"
+									height="1280"
+									/>
+							</figure>
+
+								<p class="excerpt  fadeOut">Made with GIMP and some JavaScript. Posted on /r/glitch_art/</p>
+							
+						
+					</a>
+				</article>
+			</li>
+<li data-id="133323459048" data-tags="nodejs, javascript, web">
+				<article>
+					<a href="posts/133323459048-schedule-iut-of-blois.html">
+						<header>
+								<h1>Schedule (IUT of Blois)</h1>
+						</header>
+
+								<figure>
+									<img
+										alt="Schedule (IUT of Blois)"
+										src="http://41.media.tumblr.com/726689978e9c17c4d7869bcc31caca17/tumblr_inline_o2ugurZTir1tvh06d_540.png"
+										/>
+								</figure>
+
+							<p class="excerpt  fadeOut">The official one was outdated and unsuitable for phones, I created an alternative schedule, optimized for mobile and that can operate offline. It updates itself automatically when the browser is onlin…</p>
+							<button class="more">More</button>
+						
+					</a>
+				</article>
+			</li>
+<li data-id="133584773933" data-tags="javascript, video games">
+				<article>
+					<a href="posts/133584773933-invasion-des-envahisseurs.html">
+						<header>
+								<h1>Invasion des envahisseurs</h1>
+						</header>
+
+								<figure>
+									<img
+										alt="Invasion des envahisseurs"
+										src="http://40.media.tumblr.com/a6c1c46da3cf9fb60056b4dd04e7f349/tumblr_inline_o2rt50RauM1tvh06d_540.jpg"
+										/>
+								</figure>
+
+							<p class="excerpt  fadeOut">You control a small spaceship, and must resist as long as possible to waves of enemies increasingly tough. This game was programmed in JavaScript using the (deceased) Gambas framework.Give it a try ! …</p>
+							<button class="more">More</button>
+						
+					</a>
+				</article>
+			</li>
+<li data-id="133584652393" data-tags="web, nodejs, socket.io">
+				<article>
+					<a href="posts/133584652393-chat-and-file-sharing-web-app.html">
+						<header>
+								<h1>Chat and File Sharing Web App</h1>
+						</header>
+
+								<figure>
+									<img
+										alt="Chat and File Sharing Web App"
+										src="http://36.media.tumblr.com/3ae9335e2c3da772e0fe3bd8f488a944/tumblr_inline_o2uhlxGpPl1tvh06d_540.png"
+										/>
+								</figure>
+
+							<p class="excerpt  fadeOut">Cette petite application web était simplement une occasion d'essayer NodeJS et les nouvelles fonctionnalités founies en HTML5 : l'envoi de fichier sans rechargement, le drag-and-drop, et les WebSocket…</p>
+							<button class="more">More</button>
+						
+					</a>
+				</article>
+			</li>
+<li data-id="133136629248" data-tags="web, video">
+				<article>
+					<a href="posts/133136629248-blois-dans-tous-ses-états.html">
+						<header>
+								<h1>Blois dans tous ses états</h1>
+						</header>
+
+								<figure>
+									<img
+										alt="Blois dans tous ses états"
+										src="http://40.media.tumblr.com/a58bf9c5988f18d9382fc7108aa0d7c8/tumblr_inline_o2uh4pdBMX1tvh06d_540.png"
+										/>
+								</figure>
+
+							<p class="excerpt  fadeOut">A website and a video on the theme imposed &ldquo;Being a student in Blois&rdquo; made in 24 hours as part of the SRC training (1st year). Of 14 teams of 5 students, we were the winners chosen by the …</p>
+							<button class="more">More</button>
+						
+					</a>
+				</article>
+			</li>
+<li data-id="133584941568" data-tags="web">
+				<article>
+					<a href="posts/133584941568-api-allociné-helper.html">
+						<header>
+								<h1>API Allociné Helper</h1>
+						</header>
+
+								<figure>
+									<img
+										alt="API Allociné Helper"
+										src="http://41.media.tumblr.com/690cf029694831c6f4a7a25d0e1ce580/tumblr_inline_o2rigoRr2a1tvh06d_540.jpg"
+										/>
+								</figure>
+
+							<p class="excerpt  fadeOut">The API Allociné Helper is a set of PHP classes for using more easily the Allociné REST API. You can retrieve information about movies, celebrities, TV shows, movies, etc&hellip;This script evolved fo…</p>
+							<button class="more">More</button>
+						
+					</a>
+				</article>
+			</li>
+	</ol>
+</div>
+
+
+			</main>
+		</div>
+
+		<footer class="page-footer">
+			Étienne Gauvin <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Licence Creative Commons BY-SA" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png" /></a>
+		</footer>
+
+		<script src="/assets/javascripts/script.js"></script>
+		<script src="/assets/javascripts/glitch.js"></script>
+		<script>
+			window.addEventListener('load', function () {
+				const container = document.querySelector('div.posts')
+
+				if (container) {
+					var postsHandler = new PostsHandler(container)
+					postsHandler.load()
+				}
+			})
+		</script>
+	</body>
 </html>

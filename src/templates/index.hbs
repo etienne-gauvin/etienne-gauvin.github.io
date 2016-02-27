@@ -1,60 +1,68 @@
-<!DOCTYPE html>
-<html lang="fr">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<div class="posts">
+	<form id="postsForm">
+		{{#each tags}}
+			<label>
+				<input type="checkbox" name="tag" value="{{this}}" />
+				<span>{{this}}</span>
+			</label>
+		{{/each}}
+	</form>
 
-        <title>Etienne Gauvin - développeur web</title>
 
-        <meta name="HandheldFriendly" content="True">
-        <meta name="MobileOptimized" content="320">
-        <meta name="apple-mobile-web-app-capable" content="yes">
-        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<ol class="posts">
+		{{#each posts}}<li data-id="{{id}}" data-tags="{{tagsString}}">
+				<article>
+					<a href="posts/{{{filename}}}">
+						<header>
+							{{#if hasTitle}}
+								<h1>{{title}}</h1>
+							{{/if}}
+						</header>
 
-        <meta name="description" content="Étudiant en développeur web (HTML5, CSS3, SASS/Compass, Javascript, jQuery, NodeJS, PHP), amateur de graphisme et de jeux vidéo (Javascript, Lua)">
+						{{#if isText}}
+							{{#if coverPhoto}}
+								<figure>
+									<img
+										alt="{{summary}}"
+										src="{{coverPhoto}}"
+										/>
+								</figure>
+							{{/if}}
 
-        <link href="assets/images/favicon.ico" rel="shortcut icon" type="image/x-icon">
-        <link href="assets/images/apple-touch-icon-precomposed.png" rel="apple-touch-icon">
-        
-        <link rel="stylesheet" href="assets/style.css">
-    </head>
-    <body>
-        
-        <main id="container" role="main" class="container">
+							<p class="excerpt {{#if excerptFadeOut}} fadeOut{{/if}}">{{{excerpt}}}</p>
+							<button class="more">More</button>
+						
+						{{else if isPhoto}}
+							<figure>
+								<img
+									alt="Pic #{{id}}"
+									src="{{firstPhoto.width_min_500.url}}"
+									width="{{firstPhoto.width_min_500.width}}"
+									height="{{firstPhoto.width_min_500.height}}"
+									/>
+							</figure>
 
-            {{> cover}}
-            
-            <div class="wrapper">
-                <div class="wrapper-container">
-                    
-                    {{> intro }}
-                    
-                    {{> creations }}
-                    
-                    {{> competences }}
-                    
-                    {{> contact }}
-                    
-                    {{> footer }}
-                    
-                </div>
-            </div>
-        </main>
-        
-        <!--<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')</script>
-        <script src="/javascripts/script.js"></script>-->
-
-        <script>
-            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-            ga('create', 'UA-47472721-1', 'gauvin.info');
-            ga('send', 'pageview');
-        </script>
-    </body>
-</html>
+							{{#if hasCaption}}
+								<p class="excerpt {{#if excerptFadeOut}} fadeOut{{/if}}">{{summary}}</p>
+							{{/if}}
+							
+							{{#if moreThanOnePhoto}}
+								<button class="more">More</button>
+							{{/if}}
+						
+						{{else if isVideo}}
+							<figure>
+								<img
+									alt="Video #{{id}}-{{this}}"
+									src="{{thumbnail_url}}"
+									width="{{thumbnail_width}}"
+									height="{{thumbnail_height}}"
+									/>
+							</figure>
+						{{/if}}
+					</a>
+				</article>
+			</li>
+		{{/each}}
+	</ol>
+</div>
