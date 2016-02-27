@@ -230,7 +230,6 @@ function writeTemplate(path, template, data) {
 
   var html = template(data)
   
-  if (0)
   html = minify(html, {
     removeComments: true,
     collapseWhitespace: true,
