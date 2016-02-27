@@ -50,6 +50,7 @@ function update() {
           post.isPhoto = (post.type == 'photo')
           post.isVideo = (post.type == 'video')
           post.tagsString = post.tags.join(', ')
+          post.dateString = (new Date(post.date)).toDateString()
 
           if (post.title) {
             post.hasTitle = true

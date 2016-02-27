@@ -11,10 +11,10 @@
 		<title>Étienne Gauvin</title>
         <meta name="description" content="Game/level designer and web dev.">
 
-		<link rel="stylesheet" type="text/css" href="/assets/stylesheets/style.css">
+		<!--<link rel="stylesheet" type="text/css" href="/assets/stylesheets/style.css"><!-- -->
 		
-		<!--<link rel="stylesheet/less" type="text/css" href="/src/style.less">
-		<script src="/assets/javascripts/less.min.js" type="text/javascript"></script>-->
+		<link rel="stylesheet/less" type="text/css" href="/src/style.less">
+		<script src="/assets/javascripts/less.min.js" type="text/javascript"></script><!-- -->
 	</head>
 	<body>
 		<header id="page_header" class="page-header">
@@ -32,9 +32,8 @@
 			
 			<nav role="Navigation">
 				<ul>
-					<li><a href="/#video_games&level_design&unreal_engine">games</a></li>
-					<li><a href="/#web&javascript&nodejs&socket.io">dev</a></li>
-					<li><a href="/#graphic_design&drawings&glitch_art&pixel_art&blender">design</a></li>
+					<li><a href="https://github.com/etienne-gauvin">github</a></li>
+					<li><a href="mailto:etienne@gauvin.info">contact</a></li>
 				</ul>
 			</nav>
 		</header>
@@ -42,11 +41,15 @@
 		<div class="page">
 			<main role="main">
 
-
 <article>
-		<h1>Schedule (IUT of Blois)</h1>
+			<h1>Schedule (IUT of Blois)</h1>
+		
 		<figure class="tmblr-full" data-orig-height="800" data-orig-width="800"><img data-orig-height="800" data-orig-width="800" alt="image" src="http://41.media.tumblr.com/726689978e9c17c4d7869bcc31caca17/tumblr_inline_o2ugurZTir1tvh06d_540.png"/></figure><p>The official one was outdated and unsuitable for phones, I created an alternative schedule, optimized for mobile and that can operate offline. It updates itself automatically when the browser is online, by retriving its information on the main site.</p><p>The source code is still available <a href="https://github.com/etienne-gauvin/edt-iut-blois" target="_blank">on GitHub</a>.<br/></p><p>Having had to do some reverse engineering to automatically update schedules, and this may not appeal to the university, I didn&rsquo;t really spoke about this application to anyone apart from some of my classmates.</p><h2>The Client<br/></h2><p>Offline functioning is assured by the use of HTML5 Application Cache, and the layout is responsive thanks to CSS3. The requests to the server are asynchronous (AJAX with ZeptoJS).</p><h2>The Server</h2><p>It is written in JavaScript with <a href="https://nodejs.org/en/" target="_blank">NodeJS</a> and <a href="http://expressjs.com" target="_blank">Express</a>. The database of schedules is managed with <a href="http://mongodb.org" target="_blank">MongoDB</a>.</p><figure class="tmblr-full" data-orig-height="495" data-orig-width="497"><img data-orig-height="495" data-orig-width="497" alt="image" src="http://36.media.tumblr.com/fb46a4caf6e5543b01802514082fcf00/tumblr_inline_nxwar6kOq71tvh06d_540.png"/></figure>
 	
+	
+	<footer>
+		<p>Posted the <time datetime="2013-10-13 05:44:39 GMT" pubdate>Sun Oct 13 2013</time> with tag(s) <em>nodejs, javascript, web</em></p>
+	</footer>
 </article>
 
 

@@ -1,7 +1,10 @@
 
 <article>
 	{{#if isText}}
-		<h1>{{title}}</h1>
+		{{#if hasTitle}}
+			<h1>{{title}}</h1>
+		{{/if}}
+		
 		{{{body}}}
 	
 	{{else if isPhoto}}
@@ -32,4 +35,8 @@
 			</a>
 		</figure>
 	{{/if}}
+	
+	<footer>
+		<p>Posted the <time datetime="{{{date}}}" pubdate>{{dateString}}</time> with tag(s) <em>{{tagsString}}</em>.</p>
+	</footer>
 </article>

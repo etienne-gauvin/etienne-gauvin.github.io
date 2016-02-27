@@ -117,7 +117,7 @@ body {
 				}
 				
 				&:not(:first-child):before {
-					content: " || ";
+					content: " \2022 ";
 				}
 
 				a {
@@ -144,6 +144,42 @@ body {
 						text-decoration: underline;
 					}
 				}
+			}
+		}
+	}
+}
+
+nav.posts ul {
+	margin: 20px 0 0;
+	list-style: none;
+	padding: 0;
+	text-align: center;
+
+	li {
+		display: inline-block;
+		font-size: 1em;
+		font-weight: bold;
+		color: hsl(0, 0%, 60%);
+
+		&:not(:first-child):before {
+			content: " \2022 ";
+		}
+
+		a {
+			display: inline-block;
+			padding: 0 20px;
+
+			color: hsl(0, 0%, 60%);
+			text-decoration: none;
+			transition: 100ms;
+
+			&:hover, &:active {
+				color: @base;
+			}
+
+			&:focus {
+				outline: none;
+				text-decoration: underline;
 			}
 		}
 	}
@@ -385,12 +421,16 @@ ol.posts > li.hidden {
 }
 
 main > article {
-	margin: 0;
+	margin: 20px 0;
 	padding: 20px;
 	background-color: white;
 	
 	> :first-child {
 		margin-top: 0;
+		
+		> :first-child {
+			margin-top: 0;
+		}
 	}
 	
 	h1 {
@@ -422,6 +462,19 @@ article {
 		img {
 			width: 100%;
 			height: auto;
+		}
+	}
+	
+	footer {
+		margin-top: 20px;
+		font-family: @monospaceFont;
+		font-size: small;
+		background-color: #F0F0F0;
+		padding: 20px;
+		color: #AEAEAE;
+		
+		p {
+			margin: 0;
 		}
 	}
 }
