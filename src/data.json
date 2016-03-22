@@ -31,10 +31,10 @@
       "recommended_color": null,
       "highlighted": [],
       "note_count": 2,
-      "caption": "<h2>A Level Design Exercise on the Unreal Engine.</h2><p>A level that I created in two weeks, with the <a href=\"https://www.unrealengine.com/\" target=\"_blank\">Unreal Engine</a>, for the Level Designer / Game Designer degree.</p><p>The jury awarded a score of 15/20.</p><p><a href=\"https://youtu.be/BqQkaDgFc8o\" target=\"_blank\">Watch the complete walkthrough.</a> <br/></p>",
+      "caption": "<h2>A Level Design Exercise on the Unreal Engine.</h2><p>A level that I created in two weeks, with the <a href=\"https://www.unrealengine.com/\" target=\"_blank\">Unreal Engine</a>, for the Level Designer / Game Designer degree.</p><p>The jury awarded a score of 15/20.</p>\n<a href=\"http://imgur.com/2Dnxgrq\" target=\"_blank\"><img src=\"http://i.imgur.com/2Dnxgrq.gif\" title=\"source: imgur.com\"/></a>\n<a href=\"http://imgur.com/y6spCyq\" target=\"_blank\"><img src=\"http://i.imgur.com/y6spCyq.gif\" title=\"source: imgur.com\" alt=\"image\"/></a>\n<p><a href=\"https://youtu.be/BqQkaDgFc8o\" target=\"_blank\">Watch the complete walkthrough.</a> <br/></p>",
       "reblog": {
         "tree_html": "",
-        "comment": "<p><h2>A Level Design Exercise on the Unreal Engine.</h2><p>A level that I created in two weeks, with the <a href=\"https://www.unrealengine.com/\" target=\"_blank\">Unreal Engine</a>, for the Level Designer / Game Designer degree.</p><p>The jury awarded a score of 15/20.</p><p><a href=\"https://youtu.be/BqQkaDgFc8o\" target=\"_blank\">Watch the complete walkthrough.</a> <br></p></p>"
+        "comment": "<p><h2>A Level Design Exercise on the Unreal Engine.</h2><p>A level that I created in two weeks, with the <a href=\"https://www.unrealengine.com/\" target=\"_blank\">Unreal Engine</a>, for the Level Designer / Game Designer degree.</p><p>The jury awarded a score of 15/20.</p>\n<a href=\"http://imgur.com/2Dnxgrq\" target=\"_blank\"><img src=\"http://i.imgur.com/2Dnxgrq.gif\" title=\"source: imgur.com\"></a>\n<a href=\"http://imgur.com/y6spCyq\" target=\"_blank\"><img src=\"http://i.imgur.com/y6spCyq.gif\" title=\"source: imgur.com\" alt=\"image\"></a>\n<p><a href=\"https://youtu.be/BqQkaDgFc8o\" target=\"_blank\">Watch the complete walkthrough.</a> <br></p></p>"
       },
       "trail": [{
         "blog": {
@@ -64,8 +64,8 @@
         "post": {
           "id": "139575169928"
         },
-        "content_raw": "<p><h2>A Level Design Exercise on the Unreal Engine.</h2><p>A level that I created in two weeks, with the <a href=\"https://www.unrealengine.com/\" target=\"_blank\">Unreal Engine</a>, for the Level Designer / Game Designer degree.</p><p>The jury awarded a score of 15/20.</p><p><a href=\"https://youtu.be/BqQkaDgFc8o\" target=\"_blank\">Watch the complete walkthrough.</a> <br></p></p>",
-        "content": "<p><h2>A Level Design Exercise on the Unreal Engine.</h2><p>A level that I created in two weeks, with the <a href=\"https://www.unrealengine.com/\" target=\"_blank\">Unreal Engine</a>, for the Level Designer / Game Designer degree.</p><p>The jury awarded a score of 15/20.</p><p><a href=\"https://youtu.be/BqQkaDgFc8o\" target=\"_blank\">Watch the complete walkthrough.</a> <br /></p></p>",
+        "content_raw": "<p><h2>A Level Design Exercise on the Unreal Engine.</h2><p>A level that I created in two weeks, with the <a href=\"https://www.unrealengine.com/\" target=\"_blank\">Unreal Engine</a>, for the Level Designer / Game Designer degree.</p><p>The jury awarded a score of 15/20.</p>\n<a href=\"http://imgur.com/2Dnxgrq\" target=\"_blank\"><img src=\"http://i.imgur.com/2Dnxgrq.gif\" title=\"source: imgur.com\"></a>\n<a href=\"http://imgur.com/y6spCyq\" target=\"_blank\"><img src=\"http://i.imgur.com/y6spCyq.gif\" title=\"source: imgur.com\" alt=\"image\"></a>\n<p><a href=\"https://youtu.be/BqQkaDgFc8o\" target=\"_blank\">Watch the complete walkthrough.</a> <br></p></p>",
+        "content": "<p><h2>A Level Design Exercise on the Unreal Engine.</h2><p>A level that I created in two weeks, with the <a href=\"https://www.unrealengine.com/\" target=\"_blank\">Unreal Engine</a>, for the Level Designer / Game Designer degree.</p><p>The jury awarded a score of 15/20.</p>\n<div class=\"external-image-wrapper\" data-loading-text=\"Loading...\" data-src=\"http://i.imgur.com/2Dnxgrq.gif\">External image</div>\n<div class=\"external-image-wrapper\" data-loading-text=\"Loading...\" data-src=\"http://i.imgur.com/y6spCyq.gif\">External image</div>\n<p><a href=\"https://youtu.be/BqQkaDgFc8o\" target=\"_blank\">Watch the complete walkthrough.</a> <br /></p></p>",
         "is_current_item": true,
         "is_root_item": true
       }],
@@ -924,7 +924,7 @@
           "share_following": false
         },
         "post": {
-          "id": 140606605778
+          "id": "140606605778"
         },
         "content_raw": "<p><h2>A Level Design Exercise : Left 4 Dead 2</h2><p>A map imaginated for L4D2.</p><ul><li><a href=\"http://www.pearltrees.com/s/file/download/126053087/\" target=\"_blank\">Map (outside)</a></li><li><a href=\"http://www.pearltrees.com/s/file/download/126053089/\" target=\"_blank\">Map (inside a building)</a></li><li><a href=\"http://www.pearltrees.com/s/file/download/126053088/\" target=\"_blank\">Legend</a><br></li></ul></p>",
         "content": "<p><h2>A Level Design Exercise : Left 4 Dead 2</h2><p>A map imaginated for L4D2.</p><ul><li><a href=\"http://www.pearltrees.com/s/file/download/126053087/\" target=\"_blank\">Map (outside)</a></li><li><a href=\"http://www.pearltrees.com/s/file/download/126053089/\" target=\"_blank\">Map (inside a building)</a></li><li><a href=\"http://www.pearltrees.com/s/file/download/126053088/\" target=\"_blank\">Legend</a><br /></li></ul></p>",
@@ -1473,7 +1473,7 @@
       "recommended_source": null,
       "recommended_color": null,
       "highlighted": [],
-      "note_count": 0,
+      "note_count": 1,
       "title": "Vaporwave",
       "body": "<p>A introduction -in french- to vaporwave (a subculture that emerged on the Internet in the early 2010s), posted on my blog <a href=\"http://un-petit-peu-de-musique.tumblr.com\" target=\"_blank\">un-petit-peu-de-musique</a>.</p><p><a href=\"http://un-petit-peu-de-musique.tumblr.com/post/131632075908/vaporwave\" target=\"_blank\">Link to the article</a>.<br/></p>",
       "reblog": {

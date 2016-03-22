@@ -9,10 +9,12 @@
   },
   "dependencies": {
     "compass": "^0.1.1",
+    "handlebars": "^4.0.5",
     "html-minifier": "^1.2.0",
     "js-beautify": "^1.5.10",
     "less": "^2.6.0",
-    "request": "^2.67.0"
+    "request": "^2.67.0",
+    "striptags": "^2.1.1"
   },
   "devDependencies": {},
   "scripts": {
