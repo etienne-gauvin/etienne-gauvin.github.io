@@ -2,9 +2,10 @@
   "blog": {
     "title": "etn - portfolio",
     "name": "etn-portfolio",
-    "posts": 20,
+    "total_posts": 24,
+    "posts": 24,
     "url": "http://portfolio.etienne.gauvin.info/",
-    "updated": 1457320992,
+    "updated": 1459179218,
     "description": "",
     "is_nsfw": false,
     "ask": true,
@@ -872,6 +873,130 @@
         }
       },
       "filename": "136133580628.html",
+      "basePath": "/.",
+      "assetsPath": "/assets"
+    },
+    "141841837728": {
+      "blog_name": "etn-portfolio",
+      "id": 141841837728,
+      "post_url": "http://portfolio.etienne.gauvin.info/post/141841837728",
+      "slug": "",
+      "type": "photo",
+      "date": "2015-12-27 23:00:00 GMT",
+      "timestamp": 1451257200,
+      "state": "published",
+      "format": "html",
+      "reblog_key": "Nyb8qIcs",
+      "tags": ["drawings"],
+      "short_url": "https://tmblr.co/ZKX2wi246RgwW",
+      "summary": "",
+      "recommended_source": null,
+      "recommended_color": null,
+      "highlighted": [],
+      "note_count": 0,
+      "caption": "",
+      "reblog": {
+        "tree_html": "",
+        "comment": ""
+      },
+      "trail": [],
+      "image_permalink": "http://portfolio.etienne.gauvin.info/image/141841837728",
+      "photos": [{
+        "caption": "",
+        "alt_sizes": [{
+          "url": "http://40.media.tumblr.com/dc802f36d798ece7be53bbf7149f492e/tumblr_o4r963yz8B1ulfm54o1_1280.jpg",
+          "width": 1280,
+          "height": 835
+        }, {
+          "url": "http://40.media.tumblr.com/dc802f36d798ece7be53bbf7149f492e/tumblr_o4r963yz8B1ulfm54o1_500.jpg",
+          "width": 500,
+          "height": 326
+        }, {
+          "url": "http://40.media.tumblr.com/dc802f36d798ece7be53bbf7149f492e/tumblr_o4r963yz8B1ulfm54o1_400.jpg",
+          "width": 400,
+          "height": 261
+        }, {
+          "url": "http://41.media.tumblr.com/dc802f36d798ece7be53bbf7149f492e/tumblr_o4r963yz8B1ulfm54o1_250.jpg",
+          "width": 250,
+          "height": 163
+        }, {
+          "url": "http://40.media.tumblr.com/dc802f36d798ece7be53bbf7149f492e/tumblr_o4r963yz8B1ulfm54o1_100.jpg",
+          "width": 100,
+          "height": 65
+        }, {
+          "url": "http://40.media.tumblr.com/dc802f36d798ece7be53bbf7149f492e/tumblr_o4r963yz8B1ulfm54o1_75sq.jpg",
+          "width": 75,
+          "height": 75
+        }],
+        "original_size": {
+          "url": "http://40.media.tumblr.com/dc802f36d798ece7be53bbf7149f492e/tumblr_o4r963yz8B1ulfm54o1_1280.jpg",
+          "width": 1280,
+          "height": 835
+        },
+        "exif": {
+          "Camera": "Fujifilm X-M1",
+          "ISO": 6400,
+          "Aperture": "f/2.8",
+          "Exposure": "1/100th",
+          "FocalLength": "27mm"
+        },
+        "width_min_500": {
+          "url": "http://40.media.tumblr.com/dc802f36d798ece7be53bbf7149f492e/tumblr_o4r963yz8B1ulfm54o1_500.jpg",
+          "width": 500,
+          "height": 326
+        }
+      }],
+      "isText": false,
+      "isPhoto": true,
+      "isVideo": false,
+      "tagsString": "drawings",
+      "dateString": "Mon Dec 28 2015",
+      "firstPhoto": {
+        "caption": "",
+        "alt_sizes": [{
+          "url": "http://40.media.tumblr.com/dc802f36d798ece7be53bbf7149f492e/tumblr_o4r963yz8B1ulfm54o1_1280.jpg",
+          "width": 1280,
+          "height": 835
+        }, {
+          "url": "http://40.media.tumblr.com/dc802f36d798ece7be53bbf7149f492e/tumblr_o4r963yz8B1ulfm54o1_500.jpg",
+          "width": 500,
+          "height": 326
+        }, {
+          "url": "http://40.media.tumblr.com/dc802f36d798ece7be53bbf7149f492e/tumblr_o4r963yz8B1ulfm54o1_400.jpg",
+          "width": 400,
+          "height": 261
+        }, {
+          "url": "http://41.media.tumblr.com/dc802f36d798ece7be53bbf7149f492e/tumblr_o4r963yz8B1ulfm54o1_250.jpg",
+          "width": 250,
+          "height": 163
+        }, {
+          "url": "http://40.media.tumblr.com/dc802f36d798ece7be53bbf7149f492e/tumblr_o4r963yz8B1ulfm54o1_100.jpg",
+          "width": 100,
+          "height": 65
+        }, {
+          "url": "http://40.media.tumblr.com/dc802f36d798ece7be53bbf7149f492e/tumblr_o4r963yz8B1ulfm54o1_75sq.jpg",
+          "width": 75,
+          "height": 75
+        }],
+        "original_size": {
+          "url": "http://40.media.tumblr.com/dc802f36d798ece7be53bbf7149f492e/tumblr_o4r963yz8B1ulfm54o1_1280.jpg",
+          "width": 1280,
+          "height": 835
+        },
+        "exif": {
+          "Camera": "Fujifilm X-M1",
+          "ISO": 6400,
+          "Aperture": "f/2.8",
+          "Exposure": "1/100th",
+          "FocalLength": "27mm"
+        },
+        "width_min_500": {
+          "url": "http://40.media.tumblr.com/dc802f36d798ece7be53bbf7149f492e/tumblr_o4r963yz8B1ulfm54o1_500.jpg",
+          "width": 500,
+          "height": 326
+        }
+      },
+      "filename": "141841837728.html",
       "basePath": "/.",
       "assetsPath": "/assets"
     },
@@ -1851,75 +1976,6 @@
       "basePath": "/.",
       "assetsPath": "/assets"
     },
-    "133336718468": {
-      "blog_name": "etn-portfolio",
-      "id": 133336718468,
-      "post_url": "http://portfolio.etienne.gauvin.info/post/133336718468/shootemup-with-side-scrolling-developed-from",
-      "slug": "shootemup-with-side-scrolling-developed-from",
-      "type": "text",
-      "date": "2015-04-22 13:16:34 GMT",
-      "timestamp": 1429708594,
-      "state": "published",
-      "format": "html",
-      "reblog_key": "JqBJgNpx",
-      "tags": ["javascript", "pixel art", "video games"],
-      "short_url": "https://tmblr.co/ZKX2wi1yBVDo4",
-      "summary": "Shoot'em'up with side scrolling, developed \"from scratch\" in JavaScript with the Canvas API. All images and animations were...",
-      "recommended_source": null,
-      "recommended_color": null,
-      "highlighted": [],
-      "note_count": 1,
-      "title": null,
-      "body": "<figure class=\"tmblr-full\" data-orig-height=\"2332\" data-orig-width=\"2331\"><img data-orig-height=\"2332\" data-orig-width=\"2331\" alt=\"image\" src=\"http://41.media.tumblr.com/8836ba7770815360fff151839dcbe99d/tumblr_inline_o2rts00SL31tvh06d_540.jpg\"/></figure><figure class=\"tmblr-full\" data-orig-height=\"322\" data-orig-width=\"728\"><img data-orig-height=\"322\" data-orig-width=\"728\" alt=\"image\" src=\"http://41.media.tumblr.com/7f35991852a1876118ce05d9c6d7a784/tumblr_inline_nxwvjsuPNg1tvh06d_540.png\"/></figure><figure class=\"tmblr-full\" data-orig-height=\"768\" data-orig-width=\"1024\"><img data-orig-height=\"768\" data-orig-width=\"1024\" alt=\"image\" src=\"http://38.media.tumblr.com/83a068c29363666cf9be61449dc9ee54/tumblr_inline_nxye32FW6p1tvh06d_540.gif\"/></figure><figure class=\"tmblr-full\" data-orig-height=\"543\" data-orig-width=\"547\"><img data-orig-height=\"543\" data-orig-width=\"547\" alt=\"image\" src=\"http://41.media.tumblr.com/2700cb2fd1109883ed569f8a837c7570/tumblr_inline_nxwvjp6W6J1tvh06d_540.png\"/></figure><figure class=\"tmblr-full\" data-orig-height=\"572\" data-orig-width=\"603\"><img data-orig-height=\"572\" data-orig-width=\"603\" alt=\"image\" src=\"http://41.media.tumblr.com/67f998ff12abf0c2912a519b73b5ce13/tumblr_inline_nxwyz2sE9Y1tvh06d_540.png\"/></figure><p>Shoot'em'up with side scrolling, developed &ldquo;from scratch&rdquo; in JavaScript with the Canvas API. All images and animations were created with GIMP and Aseprite.</p><p><a href=\"http://etienne.gauvin.info/projects/planes/\" target=\"_blank\">Give it a try</a><br/></p><p><a href=\"https://github.com/etienne-gauvin/planes\" target=\"_blank\">See on GitHub</a></p>",
-      "reblog": {
-        "tree_html": "",
-        "comment": "<p><figure class=\"tmblr-full\" data-orig-height=\"2332\" data-orig-width=\"2331\"><img data-orig-height=\"2332\" data-orig-width=\"2331\" alt=\"image\" src=\"http://41.media.tumblr.com/8836ba7770815360fff151839dcbe99d/tumblr_inline_o2rts00SL31tvh06d_540.jpg\"></figure><figure class=\"tmblr-full\" data-orig-height=\"322\" data-orig-width=\"728\"><img data-orig-height=\"322\" data-orig-width=\"728\" alt=\"image\" src=\"http://41.media.tumblr.com/7f35991852a1876118ce05d9c6d7a784/tumblr_inline_nxwvjsuPNg1tvh06d_540.png\"></figure><figure class=\"tmblr-full\" data-orig-height=\"768\" data-orig-width=\"1024\"><img data-orig-height=\"768\" data-orig-width=\"1024\" alt=\"image\" src=\"http://38.media.tumblr.com/83a068c29363666cf9be61449dc9ee54/tumblr_inline_nxye32FW6p1tvh06d_540.gif\"></figure><figure class=\"tmblr-full\" data-orig-height=\"543\" data-orig-width=\"547\"><img data-orig-height=\"543\" data-orig-width=\"547\" alt=\"image\" src=\"http://41.media.tumblr.com/2700cb2fd1109883ed569f8a837c7570/tumblr_inline_nxwvjp6W6J1tvh06d_540.png\"></figure><figure class=\"tmblr-full\" data-orig-height=\"572\" data-orig-width=\"603\"><img data-orig-height=\"572\" data-orig-width=\"603\" alt=\"image\" src=\"http://41.media.tumblr.com/67f998ff12abf0c2912a519b73b5ce13/tumblr_inline_nxwyz2sE9Y1tvh06d_540.png\"></figure><p>Shoot'em'up with side scrolling, developed “from scratch” in JavaScript with the Canvas API. All images and animations were created with GIMP and Aseprite.</p><p><a href=\"http://etienne.gauvin.info/projects/planes/\" target=\"_blank\">Give it a try</a><br></p><p><a href=\"https://github.com/etienne-gauvin/planes\" target=\"_blank\">See on GitHub</a></p></p>"
-      },
-      "trail": [{
-        "blog": {
-          "name": "etn-portfolio",
-          "active": true,
-          "theme": {
-            "avatar_shape": "circle",
-            "background_color": "#f8f8f8",
-            "body_font": "Helvetica Neue",
-            "header_bounds": "",
-            "header_image": "https://secure.static.tumblr.com/58c24dfc1c0e8a2c27ba6cfbc21a7543/ksysxsk/FNfo2rog3/tumblr_static_ep1egklj2g0g80ok0owkk84sw.png",
-            "header_image_focused": "https://secure.static.tumblr.com/58c24dfc1c0e8a2c27ba6cfbc21a7543/ksysxsk/FNfo2rog3/tumblr_static_ep1egklj2g0g80ok0owkk84sw_2048_v2.png",
-            "header_image_scaled": "https://secure.static.tumblr.com/58c24dfc1c0e8a2c27ba6cfbc21a7543/ksysxsk/FNfo2rog3/tumblr_static_ep1egklj2g0g80ok0owkk84sw_2048_v2.png",
-            "header_stretch": false,
-            "link_color": "#ff0000",
-            "show_avatar": false,
-            "show_description": false,
-            "show_header_image": true,
-            "show_title": false,
-            "title_color": "#333333",
-            "title_font": "Pratt Pro",
-            "title_font_weight": "bold"
-          },
-          "share_likes": false,
-          "share_following": false
-        },
-        "post": {
-          "id": "133336718468"
-        },
-        "content_raw": "<p><figure class=\"tmblr-full\" data-orig-height=\"2332\" data-orig-width=\"2331\"><img data-orig-height=\"2332\" data-orig-width=\"2331\" alt=\"image\" src=\"http://41.media.tumblr.com/8836ba7770815360fff151839dcbe99d/tumblr_inline_o2rts00SL31tvh06d_540.jpg\"></figure><figure class=\"tmblr-full\" data-orig-height=\"322\" data-orig-width=\"728\"><img data-orig-height=\"322\" data-orig-width=\"728\" alt=\"image\" src=\"http://41.media.tumblr.com/7f35991852a1876118ce05d9c6d7a784/tumblr_inline_nxwvjsuPNg1tvh06d_540.png\"></figure><figure class=\"tmblr-full\" data-orig-height=\"768\" data-orig-width=\"1024\"><img data-orig-height=\"768\" data-orig-width=\"1024\" alt=\"image\" src=\"http://38.media.tumblr.com/83a068c29363666cf9be61449dc9ee54/tumblr_inline_nxye32FW6p1tvh06d_540.gif\"></figure><figure class=\"tmblr-full\" data-orig-height=\"543\" data-orig-width=\"547\"><img data-orig-height=\"543\" data-orig-width=\"547\" alt=\"image\" src=\"http://41.media.tumblr.com/2700cb2fd1109883ed569f8a837c7570/tumblr_inline_nxwvjp6W6J1tvh06d_540.png\"></figure><figure class=\"tmblr-full\" data-orig-height=\"572\" data-orig-width=\"603\"><img data-orig-height=\"572\" data-orig-width=\"603\" alt=\"image\" src=\"http://41.media.tumblr.com/67f998ff12abf0c2912a519b73b5ce13/tumblr_inline_nxwyz2sE9Y1tvh06d_540.png\"></figure><p>Shoot'em'up with side scrolling, developed “from scratch” in JavaScript with the Canvas API. All images and animations were created with GIMP and Aseprite.</p><p><a href=\"http://etienne.gauvin.info/projects/planes/\" target=\"_blank\">Give it a try</a><br></p><p><a href=\"https://github.com/etienne-gauvin/planes\" target=\"_blank\">See on GitHub</a></p></p>",
-        "content": "<p><figure class=\"tmblr-full\"><img src=\"http://41.media.tumblr.com/8836ba7770815360fff151839dcbe99d/tumblr_inline_o2rts00SL31tvh06d_540.jpg\" class=\"\"/></figure><figure class=\"tmblr-full\"><img src=\"http://41.media.tumblr.com/7f35991852a1876118ce05d9c6d7a784/tumblr_inline_nxwvjsuPNg1tvh06d_540.png\" class=\"\"/></figure><figure class=\"tmblr-full\"><img src=\"http://38.media.tumblr.com/83a068c29363666cf9be61449dc9ee54/tumblr_inline_nxye32FW6p1tvh06d_540.gif\" class=\"\"/></figure><figure class=\"tmblr-full\"><img src=\"http://41.media.tumblr.com/2700cb2fd1109883ed569f8a837c7570/tumblr_inline_nxwvjp6W6J1tvh06d_540.png\" class=\"\"/></figure><figure class=\"tmblr-full\"><img src=\"http://41.media.tumblr.com/67f998ff12abf0c2912a519b73b5ce13/tumblr_inline_nxwyz2sE9Y1tvh06d_540.png\" class=\"\"/></figure><p>Shoot'em'up with side scrolling, developed “from scratch” in JavaScript with the Canvas API. All images and animations were created with GIMP and Aseprite.</p><p><a href=\"http://etienne.gauvin.info/projects/planes/\" target=\"_blank\">Give it a try</a><br /></p><p><a href=\"https://github.com/etienne-gauvin/planes\" target=\"_blank\">See on GitHub</a></p></p>",
-        "is_current_item": true,
-        "is_root_item": true
-      }],
-      "isText": true,
-      "isPhoto": false,
-      "isVideo": false,
-      "tagsString": "javascript, pixel art, video games",
-      "dateString": "Wed Apr 22 2015",
-      "excerpt": "Shoot'em'up with side scrolling, developed &ldquo;from scratch&rdquo; in JavaScript with the Canvas API. All images and animations were created with GIMP and Aseprite.Give it a trySee on GitHub…",
-      "excerptFadeOut": true,
-      "coverPhoto": "http://41.media.tumblr.com/8836ba7770815360fff151839dcbe99d/tumblr_inline_o2rts00SL31tvh06d_540.jpg",
-      "filename": "133336718468-shootemup-with-side-scrolling-developed-from.html",
-      "basePath": "/.",
-      "assetsPath": "/assets"
-    },
     "136132797738": {
       "blog_name": "etn-portfolio",
       "id": 136132797738,
@@ -2174,29 +2230,28 @@
       "basePath": "/.",
       "assetsPath": "/assets"
     },
-    "133323459048": {
+    "141842209258": {
       "blog_name": "etn-portfolio",
-      "id": 133323459048,
-      "post_url": "http://portfolio.etienne.gauvin.info/post/133323459048/schedule-iut-of-blois",
-      "slug": "schedule-iut-of-blois",
-      "type": "text",
-      "date": "2013-10-13 05:44:39 GMT",
-      "timestamp": 1381643079,
+      "id": 141842209258,
+      "post_url": "http://portfolio.etienne.gauvin.info/post/141842209258/photo-edit-with-gimp-posted-on-reddit",
+      "slug": "photo-edit-with-gimp-posted-on-reddit",
+      "type": "photo",
+      "date": "2014-12-14 23:00:00 GMT",
+      "timestamp": 1418598000,
       "state": "published",
       "format": "html",
-      "reblog_key": "MVFUDnoO",
-      "tags": ["nodejs", "javascript", "web"],
-      "short_url": "https://tmblr.co/ZKX2wi1yAiede",
-      "summary": "Schedule (IUT of Blois)",
+      "reblog_key": "L8NsLVMj",
+      "tags": ["graphic design", "glitch art"],
+      "short_url": "https://tmblr.co/ZKX2wi246T5dg",
+      "summary": "Photo edit with GIMP. Posted on Reddit.",
       "recommended_source": null,
       "recommended_color": null,
       "highlighted": [],
       "note_count": 0,
-      "title": "Schedule (IUT of Blois)",
-      "body": "<figure class=\"tmblr-full\" data-orig-height=\"800\" data-orig-width=\"800\"><img data-orig-height=\"800\" data-orig-width=\"800\" alt=\"image\" src=\"http://41.media.tumblr.com/726689978e9c17c4d7869bcc31caca17/tumblr_inline_o2ugurZTir1tvh06d_540.png\"/></figure><p>The official one was outdated and unsuitable for phones, I created an alternative schedule, optimized for mobile and that can operate offline. It updates itself automatically when the browser is online, by retriving its information on the main site.</p><p>The source code is still available <a href=\"https://github.com/etienne-gauvin/edt-iut-blois\" target=\"_blank\">on GitHub</a>.<br/></p><p>Having had to do some reverse engineering to automatically update schedules, and this may not appeal to the university, I didn&rsquo;t really spoke about this application to anyone apart from some of my classmates.</p><h2>The Client<br/></h2><p>Offline functioning is assured by the use of HTML5 Application Cache, and the layout is responsive thanks to CSS3. The requests to the server are asynchronous (AJAX with ZeptoJS).</p><h2>The Server</h2><p>It is written in JavaScript with <a href=\"https://nodejs.org/en/\" target=\"_blank\">NodeJS</a> and <a href=\"http://expressjs.com\" target=\"_blank\">Express</a>. The database of schedules is managed with <a href=\"http://mongodb.org\" target=\"_blank\">MongoDB</a>.</p><figure class=\"tmblr-full\" data-orig-height=\"495\" data-orig-width=\"497\"><img data-orig-height=\"495\" data-orig-width=\"497\" alt=\"image\" src=\"http://36.media.tumblr.com/fb46a4caf6e5543b01802514082fcf00/tumblr_inline_nxwar6kOq71tvh06d_540.png\"/></figure>",
+      "caption": "<p>Photo edit with <a href=\"http://www.gimp.org/\" target=\"_blank\">GIMP</a>.</p><p><a href=\"https://www.reddit.com/r/glitch_art/comments/2pbtbo/a_pretty_girl_my_first_glitch_art_try/\" target=\"_blank\">Posted on Reddit.</a><br/></p>",
       "reblog": {
         "tree_html": "",
-        "comment": "<p><figure class=\"tmblr-full\" data-orig-height=\"800\" data-orig-width=\"800\"><img data-orig-height=\"800\" data-orig-width=\"800\" alt=\"image\" src=\"http://41.media.tumblr.com/726689978e9c17c4d7869bcc31caca17/tumblr_inline_o2ugurZTir1tvh06d_540.png\"></figure><p>The official one was outdated and unsuitable for phones, I created an alternative schedule, optimized for mobile and that can operate offline. It updates itself automatically when the browser is online, by retriving its information on the main site.</p><p>The source code is still available <a href=\"https://github.com/etienne-gauvin/edt-iut-blois\" target=\"_blank\">on GitHub</a>.<br></p><p>Having had to do some reverse engineering to automatically update schedules, and this may not appeal to the university, I didn’t really spoke about this application to anyone apart from some of my classmates.</p><h2>The Client<br></h2><p>Offline functioning is assured by the use of HTML5 Application Cache, and the layout is responsive thanks to CSS3. The requests to the server are asynchronous (AJAX with ZeptoJS).</p><h2>The Server</h2><p>It is written in JavaScript with <a href=\"https://nodejs.org/en/\" target=\"_blank\">NodeJS</a> and <a href=\"http://expressjs.com\" target=\"_blank\">Express</a>. The database of schedules is managed with <a href=\"http://mongodb.org\" target=\"_blank\">MongoDB</a>.</p><figure class=\"tmblr-full\" data-orig-height=\"495\" data-orig-width=\"497\"><img data-orig-height=\"495\" data-orig-width=\"497\" alt=\"image\" src=\"http://36.media.tumblr.com/fb46a4caf6e5543b01802514082fcf00/tumblr_inline_nxwar6kOq71tvh06d_540.png\"></figure></p>"
+        "comment": "<p>Photo edit with <a href=\"http://www.gimp.org/\" target=\"_blank\">GIMP</a>.</p><p><a href=\"https://www.reddit.com/r/glitch_art/comments/2pbtbo/a_pretty_girl_my_first_glitch_art_try/\" target=\"_blank\">Posted on Reddit.</a><br></p>"
       },
       "trail": [{
         "blog": {
@@ -2224,23 +2279,241 @@
           "share_following": false
         },
         "post": {
-          "id": "133323459048"
+          "id": 141842209258
         },
-        "content_raw": "<p><figure class=\"tmblr-full\" data-orig-height=\"800\" data-orig-width=\"800\"><img data-orig-height=\"800\" data-orig-width=\"800\" alt=\"image\" src=\"http://41.media.tumblr.com/726689978e9c17c4d7869bcc31caca17/tumblr_inline_o2ugurZTir1tvh06d_540.png\"></figure><p>The official one was outdated and unsuitable for phones, I created an alternative schedule, optimized for mobile and that can operate offline. It updates itself automatically when the browser is online, by retriving its information on the main site.</p><p>The source code is still available <a href=\"https://github.com/etienne-gauvin/edt-iut-blois\" target=\"_blank\">on GitHub</a>.<br></p><p>Having had to do some reverse engineering to automatically update schedules, and this may not appeal to the university, I didn’t really spoke about this application to anyone apart from some of my classmates.</p><h2>The Client<br></h2><p>Offline functioning is assured by the use of HTML5 Application Cache, and the layout is responsive thanks to CSS3. The requests to the server are asynchronous (AJAX with ZeptoJS).</p><h2>The Server</h2><p>It is written in JavaScript with <a href=\"https://nodejs.org/en/\" target=\"_blank\">NodeJS</a> and <a href=\"http://expressjs.com\" target=\"_blank\">Express</a>. The database of schedules is managed with <a href=\"http://mongodb.org\" target=\"_blank\">MongoDB</a>.</p><figure class=\"tmblr-full\" data-orig-height=\"495\" data-orig-width=\"497\"><img data-orig-height=\"495\" data-orig-width=\"497\" alt=\"image\" src=\"http://36.media.tumblr.com/fb46a4caf6e5543b01802514082fcf00/tumblr_inline_nxwar6kOq71tvh06d_540.png\"></figure></p>",
-        "content": "<p><figure class=\"tmblr-full\"><img src=\"http://41.media.tumblr.com/726689978e9c17c4d7869bcc31caca17/tumblr_inline_o2ugurZTir1tvh06d_540.png\" class=\"\"/></figure><p>The official one was outdated and unsuitable for phones, I created an alternative schedule, optimized for mobile and that can operate offline. It updates itself automatically when the browser is online, by retriving its information on the main site.</p><p>The source code is still available <a href=\"https://github.com/etienne-gauvin/edt-iut-blois\" target=\"_blank\">on GitHub</a>.<br /></p><p>Having had to do some reverse engineering to automatically update schedules, and this may not appeal to the university, I didn’t really spoke about this application to anyone apart from some of my classmates.</p><h2>The Client<br /></h2><p>Offline functioning is assured by the use of HTML5 Application Cache, and the layout is responsive thanks to CSS3. The requests to the server are asynchronous (AJAX with ZeptoJS).</p><h2>The Server</h2><p>It is written in JavaScript with <a href=\"https://nodejs.org/en/\" target=\"_blank\">NodeJS</a> and <a href=\"http://expressjs.com\" target=\"_blank\">Express</a>. The database of schedules is managed with <a href=\"http://mongodb.org\" target=\"_blank\">MongoDB</a>.</p><figure class=\"tmblr-full\"><img src=\"http://36.media.tumblr.com/fb46a4caf6e5543b01802514082fcf00/tumblr_inline_nxwar6kOq71tvh06d_540.png\" class=\"\"/></figure></p>",
+        "content_raw": "<p>Photo edit with <a href=\"http://www.gimp.org/\" target=\"_blank\">GIMP</a>.</p><p><a href=\"https://www.reddit.com/r/glitch_art/comments/2pbtbo/a_pretty_girl_my_first_glitch_art_try/\" target=\"_blank\">Posted on Reddit.</a><br></p>",
+        "content": "<p>Photo edit with <a href=\"http://www.gimp.org/\" target=\"_blank\">GIMP</a>.</p><p><a href=\"https://www.reddit.com/r/glitch_art/comments/2pbtbo/a_pretty_girl_my_first_glitch_art_try/\" target=\"_blank\">Posted on Reddit.</a><br /></p>",
         "is_current_item": true,
         "is_root_item": true
       }],
-      "isText": true,
-      "isPhoto": false,
+      "image_permalink": "http://portfolio.etienne.gauvin.info/image/141842209258",
+      "photos": [{
+        "caption": "",
+        "alt_sizes": [{
+          "url": "http://40.media.tumblr.com/245ce0f56c90cd64048a2885ab0da09b/tumblr_o4r9jplhrU1ulfm54o1_1280.png",
+          "width": 1280,
+          "height": 597
+        }, {
+          "url": "http://36.media.tumblr.com/245ce0f56c90cd64048a2885ab0da09b/tumblr_o4r9jplhrU1ulfm54o1_500.png",
+          "width": 500,
+          "height": 233
+        }, {
+          "url": "http://41.media.tumblr.com/245ce0f56c90cd64048a2885ab0da09b/tumblr_o4r9jplhrU1ulfm54o1_400.png",
+          "width": 400,
+          "height": 187
+        }, {
+          "url": "http://40.media.tumblr.com/245ce0f56c90cd64048a2885ab0da09b/tumblr_o4r9jplhrU1ulfm54o1_250.png",
+          "width": 250,
+          "height": 117
+        }, {
+          "url": "http://40.media.tumblr.com/245ce0f56c90cd64048a2885ab0da09b/tumblr_o4r9jplhrU1ulfm54o1_100.png",
+          "width": 100,
+          "height": 47
+        }, {
+          "url": "http://40.media.tumblr.com/245ce0f56c90cd64048a2885ab0da09b/tumblr_o4r9jplhrU1ulfm54o1_75sq.png",
+          "width": 75,
+          "height": 75
+        }],
+        "original_size": {
+          "url": "http://40.media.tumblr.com/245ce0f56c90cd64048a2885ab0da09b/tumblr_o4r9jplhrU1ulfm54o1_1280.png",
+          "width": 1280,
+          "height": 597
+        },
+        "width_min_500": {
+          "url": "http://36.media.tumblr.com/245ce0f56c90cd64048a2885ab0da09b/tumblr_o4r9jplhrU1ulfm54o1_500.png",
+          "width": 500,
+          "height": 233
+        }
+      }],
+      "isText": false,
+      "isPhoto": true,
       "isVideo": false,
-      "tagsString": "nodejs, javascript, web",
-      "dateString": "Sun Oct 13 2013",
-      "hasTitle": true,
-      "excerpt": "The official one was outdated and unsuitable for phones, I created an alternative schedule, optimized for mobile and that can operate offline. It updates itself automatically when the browser is onlin…",
+      "tagsString": "graphic design, glitch art",
+      "dateString": "Mon Dec 15 2014",
+      "hasCaption": true,
       "excerptFadeOut": true,
-      "coverPhoto": "http://41.media.tumblr.com/726689978e9c17c4d7869bcc31caca17/tumblr_inline_o2ugurZTir1tvh06d_540.png",
-      "filename": "133323459048-schedule-iut-of-blois.html",
+      "firstPhoto": {
+        "caption": "",
+        "alt_sizes": [{
+          "url": "http://40.media.tumblr.com/245ce0f56c90cd64048a2885ab0da09b/tumblr_o4r9jplhrU1ulfm54o1_1280.png",
+          "width": 1280,
+          "height": 597
+        }, {
+          "url": "http://36.media.tumblr.com/245ce0f56c90cd64048a2885ab0da09b/tumblr_o4r9jplhrU1ulfm54o1_500.png",
+          "width": 500,
+          "height": 233
+        }, {
+          "url": "http://41.media.tumblr.com/245ce0f56c90cd64048a2885ab0da09b/tumblr_o4r9jplhrU1ulfm54o1_400.png",
+          "width": 400,
+          "height": 187
+        }, {
+          "url": "http://40.media.tumblr.com/245ce0f56c90cd64048a2885ab0da09b/tumblr_o4r9jplhrU1ulfm54o1_250.png",
+          "width": 250,
+          "height": 117
+        }, {
+          "url": "http://40.media.tumblr.com/245ce0f56c90cd64048a2885ab0da09b/tumblr_o4r9jplhrU1ulfm54o1_100.png",
+          "width": 100,
+          "height": 47
+        }, {
+          "url": "http://40.media.tumblr.com/245ce0f56c90cd64048a2885ab0da09b/tumblr_o4r9jplhrU1ulfm54o1_75sq.png",
+          "width": 75,
+          "height": 75
+        }],
+        "original_size": {
+          "url": "http://40.media.tumblr.com/245ce0f56c90cd64048a2885ab0da09b/tumblr_o4r9jplhrU1ulfm54o1_1280.png",
+          "width": 1280,
+          "height": 597
+        },
+        "width_min_500": {
+          "url": "http://36.media.tumblr.com/245ce0f56c90cd64048a2885ab0da09b/tumblr_o4r9jplhrU1ulfm54o1_500.png",
+          "width": 500,
+          "height": 233
+        }
+      },
+      "filename": "141842209258-photo-edit-with-gimp-posted-on-reddit.html",
+      "basePath": "/.",
+      "assetsPath": "/assets"
+    },
+    "141842005858": {
+      "blog_name": "etn-portfolio",
+      "id": 141842005858,
+      "post_url": "http://portfolio.etienne.gauvin.info/post/141842005858/crayon-de-papier",
+      "slug": "crayon-de-papier",
+      "type": "photo",
+      "date": "2014-07-30 22:00:00 GMT",
+      "timestamp": 1406757600,
+      "state": "published",
+      "format": "html",
+      "reblog_key": "5kVBjWHF",
+      "tags": ["drawings"],
+      "short_url": "https://tmblr.co/ZKX2wi246SJzY",
+      "summary": "(crayon de papier)",
+      "recommended_source": null,
+      "recommended_color": null,
+      "highlighted": [],
+      "note_count": 0,
+      "caption": "<p>(crayon de papier)<br/></p>",
+      "reblog": {
+        "tree_html": "",
+        "comment": "<p>(crayon de papier)<br></p>"
+      },
+      "trail": [{
+        "blog": {
+          "name": "etn-portfolio",
+          "active": true,
+          "theme": {
+            "avatar_shape": "circle",
+            "background_color": "#f8f8f8",
+            "body_font": "Helvetica Neue",
+            "header_bounds": "",
+            "header_image": "https://secure.static.tumblr.com/58c24dfc1c0e8a2c27ba6cfbc21a7543/ksysxsk/FNfo2rog3/tumblr_static_ep1egklj2g0g80ok0owkk84sw.png",
+            "header_image_focused": "https://secure.static.tumblr.com/58c24dfc1c0e8a2c27ba6cfbc21a7543/ksysxsk/FNfo2rog3/tumblr_static_ep1egklj2g0g80ok0owkk84sw_2048_v2.png",
+            "header_image_scaled": "https://secure.static.tumblr.com/58c24dfc1c0e8a2c27ba6cfbc21a7543/ksysxsk/FNfo2rog3/tumblr_static_ep1egklj2g0g80ok0owkk84sw_2048_v2.png",
+            "header_stretch": false,
+            "link_color": "#ff0000",
+            "show_avatar": false,
+            "show_description": false,
+            "show_header_image": true,
+            "show_title": false,
+            "title_color": "#333333",
+            "title_font": "Pratt Pro",
+            "title_font_weight": "bold"
+          },
+          "share_likes": false,
+          "share_following": false
+        },
+        "post": {
+          "id": 141842005858
+        },
+        "content_raw": "<p>(crayon de papier)<br></p>",
+        "content": "<p>(crayon de papier)<br /></p>",
+        "is_current_item": true,
+        "is_root_item": true
+      }],
+      "image_permalink": "http://portfolio.etienne.gauvin.info/image/141842005858",
+      "photos": [{
+        "caption": "",
+        "alt_sizes": [{
+          "url": "http://40.media.tumblr.com/0edca8653f8ef54abca0bccfab946cf5/tumblr_o4r9c1a4ug1ulfm54o1_1280.png",
+          "width": 1223,
+          "height": 1223
+        }, {
+          "url": "http://40.media.tumblr.com/0edca8653f8ef54abca0bccfab946cf5/tumblr_o4r9c1a4ug1ulfm54o1_500.png",
+          "width": 500,
+          "height": 500
+        }, {
+          "url": "http://41.media.tumblr.com/0edca8653f8ef54abca0bccfab946cf5/tumblr_o4r9c1a4ug1ulfm54o1_400.png",
+          "width": 400,
+          "height": 400
+        }, {
+          "url": "http://41.media.tumblr.com/0edca8653f8ef54abca0bccfab946cf5/tumblr_o4r9c1a4ug1ulfm54o1_250.png",
+          "width": 250,
+          "height": 250
+        }, {
+          "url": "http://36.media.tumblr.com/0edca8653f8ef54abca0bccfab946cf5/tumblr_o4r9c1a4ug1ulfm54o1_100.png",
+          "width": 100,
+          "height": 100
+        }, {
+          "url": "http://40.media.tumblr.com/0edca8653f8ef54abca0bccfab946cf5/tumblr_o4r9c1a4ug1ulfm54o1_75sq.png",
+          "width": 75,
+          "height": 75
+        }],
+        "original_size": {
+          "url": "http://40.media.tumblr.com/0edca8653f8ef54abca0bccfab946cf5/tumblr_o4r9c1a4ug1ulfm54o1_1280.png",
+          "width": 1223,
+          "height": 1223
+        },
+        "width_min_500": {
+          "url": "http://40.media.tumblr.com/0edca8653f8ef54abca0bccfab946cf5/tumblr_o4r9c1a4ug1ulfm54o1_500.png",
+          "width": 500,
+          "height": 500
+        }
+      }],
+      "isText": false,
+      "isPhoto": true,
+      "isVideo": false,
+      "tagsString": "drawings",
+      "dateString": "Thu Jul 31 2014",
+      "hasCaption": true,
+      "firstPhoto": {
+        "caption": "",
+        "alt_sizes": [{
+          "url": "http://40.media.tumblr.com/0edca8653f8ef54abca0bccfab946cf5/tumblr_o4r9c1a4ug1ulfm54o1_1280.png",
+          "width": 1223,
+          "height": 1223
+        }, {
+          "url": "http://40.media.tumblr.com/0edca8653f8ef54abca0bccfab946cf5/tumblr_o4r9c1a4ug1ulfm54o1_500.png",
+          "width": 500,
+          "height": 500
+        }, {
+          "url": "http://41.media.tumblr.com/0edca8653f8ef54abca0bccfab946cf5/tumblr_o4r9c1a4ug1ulfm54o1_400.png",
+          "width": 400,
+          "height": 400
+        }, {
+          "url": "http://41.media.tumblr.com/0edca8653f8ef54abca0bccfab946cf5/tumblr_o4r9c1a4ug1ulfm54o1_250.png",
+          "width": 250,
+          "height": 250
+        }, {
+          "url": "http://36.media.tumblr.com/0edca8653f8ef54abca0bccfab946cf5/tumblr_o4r9c1a4ug1ulfm54o1_100.png",
+          "width": 100,
+          "height": 100
+        }, {
+          "url": "http://40.media.tumblr.com/0edca8653f8ef54abca0bccfab946cf5/tumblr_o4r9c1a4ug1ulfm54o1_75sq.png",
+          "width": 75,
+          "height": 75
+        }],
+        "original_size": {
+          "url": "http://40.media.tumblr.com/0edca8653f8ef54abca0bccfab946cf5/tumblr_o4r9c1a4ug1ulfm54o1_1280.png",
+          "width": 1223,
+          "height": 1223
+        },
+        "width_min_500": {
+          "url": "http://40.media.tumblr.com/0edca8653f8ef54abca0bccfab946cf5/tumblr_o4r9c1a4ug1ulfm54o1_500.png",
+          "width": 500,
+          "height": 500
+        }
+      },
+      "filename": "141842005858-crayon-de-papier.html",
       "basePath": "/.",
       "assetsPath": "/assets"
     },
@@ -2314,29 +2587,28 @@
       "basePath": "/.",
       "assetsPath": "/assets"
     },
-    "133584652393": {
+    "141842531118": {
       "blog_name": "etn-portfolio",
-      "id": 133584652393,
-      "post_url": "http://portfolio.etienne.gauvin.info/post/133584652393/chat-and-file-sharing-web-app",
-      "slug": "chat-and-file-sharing-web-app",
-      "type": "text",
-      "date": "2013-06-15 08:14:35 GMT",
-      "timestamp": 1371284075,
+      "id": 141842531118,
+      "post_url": "http://portfolio.etienne.gauvin.info/post/141842531118/photo-edit-with-gimp",
+      "slug": "photo-edit-with-gimp",
+      "type": "photo",
+      "date": "2013-07-31 22:00:00 GMT",
+      "timestamp": 1375308000,
       "state": "published",
       "format": "html",
-      "reblog_key": "bOXSXvHm",
-      "tags": ["web", "nodejs", "socket.io"],
-      "short_url": "https://tmblr.co/ZKX2wi1yQH0Xf",
-      "summary": "Chat and File Sharing Web App",
+      "reblog_key": "K4rVSaFg",
+      "tags": ["graphic design"],
+      "short_url": "https://tmblr.co/ZKX2wi246UKCk",
+      "summary": "Photo edit with GIMP.",
       "recommended_source": null,
       "recommended_color": null,
       "highlighted": [],
       "note_count": 0,
-      "title": "Chat and File Sharing Web App",
-      "body": "<figure class=\"tmblr-full\" data-orig-height=\"800\" data-orig-width=\"800\"><img data-orig-height=\"800\" data-orig-width=\"800\" alt=\"image\" src=\"http://36.media.tumblr.com/3ae9335e2c3da772e0fe3bd8f488a944/tumblr_inline_o2uhlxGpPl1tvh06d_540.png\"/></figure><p>Cette petite application web était simplement une occasion d'essayer NodeJS et les nouvelles fonctionnalités founies en HTML5 : l'envoi de fichier sans rechargement, le drag-and-drop, et les WebSockets (avec Socket.IO). Le résultat est un chat en ligne assez complet, et un “répertoire” public de fichiers, le tout sur une seule page.<br/></p><p><a href=\"https://github.com/etienne-gauvin/partage/\" target=\"_blank\"></a><a href=\"https://github.com/etienne-gauvin/partage/\" target=\"_blank\">Voir le code-source sur GitHub</a></p><figure class=\"tmblr-full\" data-orig-height=\"700\" data-orig-width=\"846\"><img data-orig-height=\"700\" data-orig-width=\"846\" alt=\"image\" src=\"http://40.media.tumblr.com/1750526f923a5cec5495bcbddaa97944/tumblr_inline_ny3wamUvbc1tvh06d_540.png\"/></figure>",
+      "caption": "<p>Photo edit with <a href=\"http://www.gimp.org/\" target=\"_blank\">GIMP</a>.</p>",
       "reblog": {
         "tree_html": "",
-        "comment": "<p><figure class=\"tmblr-full\" data-orig-height=\"800\" data-orig-width=\"800\"><img data-orig-height=\"800\" data-orig-width=\"800\" alt=\"image\" src=\"http://36.media.tumblr.com/3ae9335e2c3da772e0fe3bd8f488a944/tumblr_inline_o2uhlxGpPl1tvh06d_540.png\"></figure><p>Cette petite application web était simplement une occasion d'essayer NodeJS et les nouvelles fonctionnalités founies en HTML5 : l'envoi de fichier sans rechargement, le drag-and-drop, et les WebSockets (avec Socket.IO). Le résultat est un chat en ligne assez complet, et un “répertoire” public de fichiers, le tout sur une seule page.<br></p><p><a href=\"https://github.com/etienne-gauvin/partage/\" target=\"_blank\"></a><a href=\"https://github.com/etienne-gauvin/partage/\" target=\"_blank\">Voir le code-source sur GitHub</a></p><figure class=\"tmblr-full\" data-orig-height=\"700\" data-orig-width=\"846\"><img data-orig-height=\"700\" data-orig-width=\"846\" alt=\"image\" src=\"http://40.media.tumblr.com/1750526f923a5cec5495bcbddaa97944/tumblr_inline_ny3wamUvbc1tvh06d_540.png\"></figure></p>"
+        "comment": "<p>Photo edit with <a href=\"http://www.gimp.org/\" target=\"_blank\">GIMP</a>.</p>"
       },
       "trail": [{
         "blog": {
@@ -2364,93 +2636,98 @@
           "share_following": false
         },
         "post": {
-          "id": "133584652393"
+          "id": 141842531118
         },
-        "content_raw": "<p><figure class=\"tmblr-full\" data-orig-height=\"800\" data-orig-width=\"800\"><img data-orig-height=\"800\" data-orig-width=\"800\" alt=\"image\" src=\"http://36.media.tumblr.com/3ae9335e2c3da772e0fe3bd8f488a944/tumblr_inline_o2uhlxGpPl1tvh06d_540.png\"></figure><p>Cette petite application web était simplement une occasion d'essayer NodeJS et les nouvelles fonctionnalités founies en HTML5 : l'envoi de fichier sans rechargement, le drag-and-drop, et les WebSockets (avec Socket.IO). Le résultat est un chat en ligne assez complet, et un “répertoire” public de fichiers, le tout sur une seule page.<br></p><p><a href=\"https://github.com/etienne-gauvin/partage/\" target=\"_blank\"></a><a href=\"https://github.com/etienne-gauvin/partage/\" target=\"_blank\">Voir le code-source sur GitHub</a></p><figure class=\"tmblr-full\" data-orig-height=\"700\" data-orig-width=\"846\"><img data-orig-height=\"700\" data-orig-width=\"846\" alt=\"image\" src=\"http://40.media.tumblr.com/1750526f923a5cec5495bcbddaa97944/tumblr_inline_ny3wamUvbc1tvh06d_540.png\"></figure></p>",
-        "content": "<p><figure class=\"tmblr-full\"><img src=\"http://36.media.tumblr.com/3ae9335e2c3da772e0fe3bd8f488a944/tumblr_inline_o2uhlxGpPl1tvh06d_540.png\" class=\"\"/></figure><p>Cette petite application web était simplement une occasion d'essayer NodeJS et les nouvelles fonctionnalités founies en HTML5 : l'envoi de fichier sans rechargement, le drag-and-drop, et les WebSockets (avec Socket.IO). Le résultat est un chat en ligne assez complet, et un “répertoire” public de fichiers, le tout sur une seule page.<br /></p><p><a href=\"https://github.com/etienne-gauvin/partage/\" target=\"_blank\"></a><a href=\"https://github.com/etienne-gauvin/partage/\" target=\"_blank\">Voir le code-source sur GitHub</a></p><figure class=\"tmblr-full\"><img src=\"http://40.media.tumblr.com/1750526f923a5cec5495bcbddaa97944/tumblr_inline_ny3wamUvbc1tvh06d_540.png\" class=\"\"/></figure></p>",
+        "content_raw": "<p>Photo edit with <a href=\"http://www.gimp.org/\" target=\"_blank\">GIMP</a>.</p>",
+        "content": "<p>Photo edit with <a href=\"http://www.gimp.org/\" target=\"_blank\">GIMP</a>.</p>",
         "is_current_item": true,
         "is_root_item": true
       }],
-      "isText": true,
-      "isPhoto": false,
+      "image_permalink": "http://portfolio.etienne.gauvin.info/image/141842531118",
+      "photos": [{
+        "caption": "",
+        "alt_sizes": [{
+          "url": "http://36.media.tumblr.com/39e6cb7c3736fe0da19bc022c78344ff/tumblr_o4r9w2hRN01ulfm54o1_1280.jpg",
+          "width": 1280,
+          "height": 960
+        }, {
+          "url": "http://41.media.tumblr.com/39e6cb7c3736fe0da19bc022c78344ff/tumblr_o4r9w2hRN01ulfm54o1_500.jpg",
+          "width": 500,
+          "height": 375
+        }, {
+          "url": "http://36.media.tumblr.com/39e6cb7c3736fe0da19bc022c78344ff/tumblr_o4r9w2hRN01ulfm54o1_400.jpg",
+          "width": 400,
+          "height": 300
+        }, {
+          "url": "http://41.media.tumblr.com/39e6cb7c3736fe0da19bc022c78344ff/tumblr_o4r9w2hRN01ulfm54o1_250.jpg",
+          "width": 250,
+          "height": 188
+        }, {
+          "url": "http://41.media.tumblr.com/39e6cb7c3736fe0da19bc022c78344ff/tumblr_o4r9w2hRN01ulfm54o1_100.jpg",
+          "width": 100,
+          "height": 75
+        }, {
+          "url": "http://41.media.tumblr.com/39e6cb7c3736fe0da19bc022c78344ff/tumblr_o4r9w2hRN01ulfm54o1_75sq.jpg",
+          "width": 75,
+          "height": 75
+        }],
+        "original_size": {
+          "url": "http://36.media.tumblr.com/39e6cb7c3736fe0da19bc022c78344ff/tumblr_o4r9w2hRN01ulfm54o1_1280.jpg",
+          "width": 1280,
+          "height": 960
+        },
+        "width_min_500": {
+          "url": "http://41.media.tumblr.com/39e6cb7c3736fe0da19bc022c78344ff/tumblr_o4r9w2hRN01ulfm54o1_500.jpg",
+          "width": 500,
+          "height": 375
+        }
+      }],
+      "isText": false,
+      "isPhoto": true,
       "isVideo": false,
-      "tagsString": "web, nodejs, socket.io",
-      "dateString": "Sat Jun 15 2013",
-      "hasTitle": true,
-      "excerpt": "Cette petite application web était simplement une occasion d'essayer NodeJS et les nouvelles fonctionnalités founies en HTML5 : l'envoi de fichier sans rechargement, le drag-and-drop, et les WebSocket…",
+      "tagsString": "graphic design",
+      "dateString": "Thu Aug 01 2013",
+      "hasCaption": true,
       "excerptFadeOut": true,
-      "coverPhoto": "http://36.media.tumblr.com/3ae9335e2c3da772e0fe3bd8f488a944/tumblr_inline_o2uhlxGpPl1tvh06d_540.png",
-      "filename": "133584652393-chat-and-file-sharing-web-app.html",
-      "basePath": "/.",
-      "assetsPath": "/assets"
-    },
-    "133136629248": {
-      "blog_name": "etn-portfolio",
-      "id": 133136629248,
-      "post_url": "http://portfolio.etienne.gauvin.info/post/133136629248/blois-dans-tous-ses-états",
-      "slug": "blois-dans-tous-ses-états",
-      "type": "text",
-      "date": "2013-06-05 14:59:51 GMT",
-      "timestamp": 1370444391,
-      "state": "published",
-      "format": "html",
-      "reblog_key": "6EbHsUg8",
-      "tags": ["web", "video"],
-      "short_url": "https://tmblr.co/ZKX2wi1x-Zxu0",
-      "summary": "Blois dans tous ses états",
-      "recommended_source": null,
-      "recommended_color": null,
-      "highlighted": [],
-      "note_count": 0,
-      "title": "Blois dans tous ses états",
-      "body": "<figure class=\"tmblr-full\" data-orig-height=\"800\" data-orig-width=\"800\"><img data-orig-height=\"800\" data-orig-width=\"800\" alt=\"image\" src=\"http://40.media.tumblr.com/a58bf9c5988f18d9382fc7108aa0d7c8/tumblr_inline_o2uh4pdBMX1tvh06d_540.png\"/></figure><p>A website and a video on the theme imposed &ldquo;Being a student in Blois&rdquo; made in 24 hours as part of the SRC training (1st year). Of 14 teams of 5 students, we were the winners chosen by the teaching staff. The site is made with HTML5 and CSS3, with JavaScript to add some interactivity.</p><p><a href=\"https://www.youtube.com/watch?v=kMFA0FQLBfU\" target=\"_blank\">Watch the video</a><br/></p><figure class=\"tmblr-full\" data-orig-height=\"742\" data-orig-width=\"1001\"><img data-orig-height=\"742\" data-orig-width=\"1001\" alt=\"image\" src=\"http://40.media.tumblr.com/e22421eee4b7cb21e3c47ee279d908f0/tumblr_inline_nxw9casaCK1tvh06d_540.png\"/></figure><figure class=\"tmblr-full\" data-orig-height=\"967\" data-orig-width=\"676\"><img data-orig-height=\"967\" data-orig-width=\"676\" alt=\"image\" src=\"http://40.media.tumblr.com/1ef408f7a9083d33f0498724022d9213/tumblr_inline_nxw9ep94JK1tvh06d_540.png\"/></figure>",
-      "reblog": {
-        "tree_html": "",
-        "comment": "<p><figure class=\"tmblr-full\" data-orig-height=\"800\" data-orig-width=\"800\"><img data-orig-height=\"800\" data-orig-width=\"800\" alt=\"image\" src=\"http://40.media.tumblr.com/a58bf9c5988f18d9382fc7108aa0d7c8/tumblr_inline_o2uh4pdBMX1tvh06d_540.png\"></figure><p>A website and a video on the theme imposed “Being a student in Blois” made in 24 hours as part of the SRC training (1st year). Of 14 teams of 5 students, we were the winners chosen by the teaching staff. The site is made with HTML5 and CSS3, with JavaScript to add some interactivity.</p><p><a href=\"https://www.youtube.com/watch?v=kMFA0FQLBfU\" target=\"_blank\">Watch the video</a><br></p><figure class=\"tmblr-full\" data-orig-height=\"742\" data-orig-width=\"1001\"><img data-orig-height=\"742\" data-orig-width=\"1001\" alt=\"image\" src=\"http://40.media.tumblr.com/e22421eee4b7cb21e3c47ee279d908f0/tumblr_inline_nxw9casaCK1tvh06d_540.png\"></figure><figure class=\"tmblr-full\" data-orig-height=\"967\" data-orig-width=\"676\"><img data-orig-height=\"967\" data-orig-width=\"676\" alt=\"image\" src=\"http://40.media.tumblr.com/1ef408f7a9083d33f0498724022d9213/tumblr_inline_nxw9ep94JK1tvh06d_540.png\"></figure></p>"
+      "firstPhoto": {
+        "caption": "",
+        "alt_sizes": [{
+          "url": "http://36.media.tumblr.com/39e6cb7c3736fe0da19bc022c78344ff/tumblr_o4r9w2hRN01ulfm54o1_1280.jpg",
+          "width": 1280,
+          "height": 960
+        }, {
+          "url": "http://41.media.tumblr.com/39e6cb7c3736fe0da19bc022c78344ff/tumblr_o4r9w2hRN01ulfm54o1_500.jpg",
+          "width": 500,
+          "height": 375
+        }, {
+          "url": "http://36.media.tumblr.com/39e6cb7c3736fe0da19bc022c78344ff/tumblr_o4r9w2hRN01ulfm54o1_400.jpg",
+          "width": 400,
+          "height": 300
+        }, {
+          "url": "http://41.media.tumblr.com/39e6cb7c3736fe0da19bc022c78344ff/tumblr_o4r9w2hRN01ulfm54o1_250.jpg",
+          "width": 250,
+          "height": 188
+        }, {
+          "url": "http://41.media.tumblr.com/39e6cb7c3736fe0da19bc022c78344ff/tumblr_o4r9w2hRN01ulfm54o1_100.jpg",
+          "width": 100,
+          "height": 75
+        }, {
+          "url": "http://41.media.tumblr.com/39e6cb7c3736fe0da19bc022c78344ff/tumblr_o4r9w2hRN01ulfm54o1_75sq.jpg",
+          "width": 75,
+          "height": 75
+        }],
+        "original_size": {
+          "url": "http://36.media.tumblr.com/39e6cb7c3736fe0da19bc022c78344ff/tumblr_o4r9w2hRN01ulfm54o1_1280.jpg",
+          "width": 1280,
+          "height": 960
+        },
+        "width_min_500": {
+          "url": "http://41.media.tumblr.com/39e6cb7c3736fe0da19bc022c78344ff/tumblr_o4r9w2hRN01ulfm54o1_500.jpg",
+          "width": 500,
+          "height": 375
+        }
       },
-      "trail": [{
-        "blog": {
-          "name": "etn-portfolio",
-          "active": true,
-          "theme": {
-            "avatar_shape": "circle",
-            "background_color": "#f8f8f8",
-            "body_font": "Helvetica Neue",
-            "header_bounds": "",
-            "header_image": "https://secure.static.tumblr.com/58c24dfc1c0e8a2c27ba6cfbc21a7543/ksysxsk/FNfo2rog3/tumblr_static_ep1egklj2g0g80ok0owkk84sw.png",
-            "header_image_focused": "https://secure.static.tumblr.com/58c24dfc1c0e8a2c27ba6cfbc21a7543/ksysxsk/FNfo2rog3/tumblr_static_ep1egklj2g0g80ok0owkk84sw_2048_v2.png",
-            "header_image_scaled": "https://secure.static.tumblr.com/58c24dfc1c0e8a2c27ba6cfbc21a7543/ksysxsk/FNfo2rog3/tumblr_static_ep1egklj2g0g80ok0owkk84sw_2048_v2.png",
-            "header_stretch": false,
-            "link_color": "#ff0000",
-            "show_avatar": false,
-            "show_description": false,
-            "show_header_image": true,
-            "show_title": false,
-            "title_color": "#333333",
-            "title_font": "Pratt Pro",
-            "title_font_weight": "bold"
-          },
-          "share_likes": false,
-          "share_following": false
-        },
-        "post": {
-          "id": "133136629248"
-        },
-        "content_raw": "<p><figure class=\"tmblr-full\" data-orig-height=\"800\" data-orig-width=\"800\"><img data-orig-height=\"800\" data-orig-width=\"800\" alt=\"image\" src=\"http://40.media.tumblr.com/a58bf9c5988f18d9382fc7108aa0d7c8/tumblr_inline_o2uh4pdBMX1tvh06d_540.png\"></figure><p>A website and a video on the theme imposed “Being a student in Blois” made in 24 hours as part of the SRC training (1st year). Of 14 teams of 5 students, we were the winners chosen by the teaching staff. The site is made with HTML5 and CSS3, with JavaScript to add some interactivity.</p><p><a href=\"https://www.youtube.com/watch?v=kMFA0FQLBfU\" target=\"_blank\">Watch the video</a><br></p><figure class=\"tmblr-full\" data-orig-height=\"742\" data-orig-width=\"1001\"><img data-orig-height=\"742\" data-orig-width=\"1001\" alt=\"image\" src=\"http://40.media.tumblr.com/e22421eee4b7cb21e3c47ee279d908f0/tumblr_inline_nxw9casaCK1tvh06d_540.png\"></figure><figure class=\"tmblr-full\" data-orig-height=\"967\" data-orig-width=\"676\"><img data-orig-height=\"967\" data-orig-width=\"676\" alt=\"image\" src=\"http://40.media.tumblr.com/1ef408f7a9083d33f0498724022d9213/tumblr_inline_nxw9ep94JK1tvh06d_540.png\"></figure></p>",
-        "content": "<p><figure class=\"tmblr-full\"><img src=\"http://40.media.tumblr.com/a58bf9c5988f18d9382fc7108aa0d7c8/tumblr_inline_o2uh4pdBMX1tvh06d_540.png\" class=\"\"/></figure><p>A website and a video on the theme imposed “Being a student in Blois” made in 24 hours as part of the SRC training (1st year). Of 14 teams of 5 students, we were the winners chosen by the teaching staff. The site is made with HTML5 and CSS3, with JavaScript to add some interactivity.</p><p><a href=\"https://www.youtube.com/watch?v=kMFA0FQLBfU\" target=\"_blank\">Watch the video</a><br /></p><figure class=\"tmblr-full\"><img src=\"http://40.media.tumblr.com/e22421eee4b7cb21e3c47ee279d908f0/tumblr_inline_nxw9casaCK1tvh06d_540.png\" class=\"\"/></figure><figure class=\"tmblr-full\"><img src=\"http://40.media.tumblr.com/1ef408f7a9083d33f0498724022d9213/tumblr_inline_nxw9ep94JK1tvh06d_540.png\" class=\"\"/></figure></p>",
-        "is_current_item": true,
-        "is_root_item": true
-      }],
-      "isText": true,
-      "isPhoto": false,
-      "isVideo": false,
-      "tagsString": "web, video",
-      "dateString": "Wed Jun 05 2013",
-      "hasTitle": true,
-      "excerpt": "A website and a video on the theme imposed &ldquo;Being a student in Blois&rdquo; made in 24 hours as part of the SRC training (1st year). Of 14 teams of 5 students, we were the winners chosen by the …",
-      "excerptFadeOut": true,
-      "coverPhoto": "http://40.media.tumblr.com/a58bf9c5988f18d9382fc7108aa0d7c8/tumblr_inline_o2uh4pdBMX1tvh06d_540.png",
-      "filename": "133136629248-blois-dans-tous-ses-états.html",
+      "filename": "141842531118-photo-edit-with-gimp.html",
       "basePath": "/.",
       "assetsPath": "/assets"
     },
@@ -2525,7 +2802,7 @@
       "assetsPath": "/assets"
     }
   },
-  "tags": ["level design", "unreal engine", "video games", "graphic design", "blender", "drawings", "pixel art", "other", "glitch art", "javascript", "nodejs", "web", "socket.io", "video"],
+  "tags": ["level design", "unreal engine", "video games", "graphic design", "blender", "drawings", "pixel art", "other", "glitch art", "javascript", "web"],
   "isIndexPage": true,
   "basePath": "/.",
   "assetsPath": "/assets"
