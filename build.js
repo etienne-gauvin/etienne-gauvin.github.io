@@ -233,7 +233,7 @@ function writeTemplate(path, template, data) {
   html = minify(html, {
     removeComments: true,
     collapseWhitespace: true,
-    removeTagWhitespace: true,
+    removeTagWhitespace: false,
     minifyJS: true
   })
 
