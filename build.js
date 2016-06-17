@@ -17,7 +17,7 @@ function update() {
 
   var params = {
     json: true,
-    url: `http://api.tumblr.com/v2/blog/${config.tumblr.baseHostname}/posts?api_key=${config.tumblr.apiKey}`
+    url: `http://api.tumblr.com/v2/blog/${config.tumblr.baseHostname}/posts?api_key=${config.tumblr.apiKey}&limit=25`
   }
 
   request(params, (error, response, body) => {
@@ -42,6 +42,8 @@ function update() {
         })
 
         data.tags = []
+
+        console.log(body.response.posts.length + ' posts')
 
         for (var i = 0; i < body.response.posts.length; i++) {
           var post = body.response.posts[i]
