@@ -51,18 +51,22 @@ html {
 		background-color: #FFF;
 		margin: 0;
 		padding: 0;
+
+		& > header, & > footer {
+			background-color: $main-color-darker;
+			border-style: solid;
+		}
 		
 		& > header {
 			$frieze-height: 12px;
 			$frieze-height-unitless: $frieze-height / ($frieze-height * 0 + 1);
+			$file: "./images/borders/header-frieze.png";
 
-			background-color: $main-color-darker;
-			border-style: solid;
 			border-width: 0px 0px $frieze-height;
-			-moz-border-image: url("./images/frieze.png") 0 0 $frieze-height-unitless repeat;
-			-webkit-border-image: url("./images/frieze.png") 0 0 $frieze-height-unitless repeat;
-			-o-border-image: url("./images/frieze.png") 0 0 $frieze-height-unitless repeat;
-			border-image: url("./images/frieze.png") 0 0 $frieze-height-unitless fill repeat;
+			-moz-border-image: url($file) 0 0 $frieze-height-unitless repeat;
+			-webkit-border-image: url($file) 0 0 $frieze-height-unitless repeat;
+			-o-border-image: url($file) 0 0 $frieze-height-unitless repeat;
+			border-image: url($file) 0 0 $frieze-height-unitless fill repeat;
 			
 			h1 {
 				@include adapt-to-screen;
@@ -96,8 +100,42 @@ html {
 			}
 		}
 
+		& > footer {
+			padding: $gutter;
+
+			$frieze-height: 12px;
+			$frieze-height-unitless: $frieze-height / ($frieze-height * 0 + 1);
+			$file: "./images/borders/footer-frieze.png";
+
+			border-width: $frieze-height 0px 0px;
+			-moz-border-image: url($file) $frieze-height-unitless 0 0 repeat;
+			-webkit-border-image: url($file) $frieze-height-unitless 0 0 repeat;
+			-o-border-image: url($file) $frieze-height-unitless 0 0 repeat;
+			border-image: url($file) $frieze-height-unitless 0 0 fill repeat;
+
+			color: $main-color-light;
+
+			p {
+				margin: 0;
+				padding: 0;
+				text-align: center;
+
+				a {
+					color: inherit;
+					text-decoration: none;
+
+					&:hover, &:focus {
+						text-decoration: underline;
+					}
+				}
+			}
+		}
+
 		& > main {
 			@include adapt-to-screen;
+
+			padding-top: $gutter;
+			padding-bottom: $gutter;
 
 			background-color: white;
 
@@ -106,12 +144,13 @@ html {
 				font-size: 1.5em;
 				text-transform: uppercase;
 
+				$file: "./images/borders/h2-frieze.png";
 				border-style: solid;
 				border-width: 0px 10px 10px;
-				-moz-border-image: url("./images/border-bottom.png") 0 10 10 repeat;
-				-webkit-border-image: url("./images/border-bottom.png") 0 10 10 repeat;
-				-o-border-image: url("./images/border-bottom.png") 0 10 10 repeat;
-				border-image: url("./images/border-bottom.png") 0 10 10 fill repeat;
+				-moz-border-image: url($file) 0 10 10 repeat;
+				-webkit-border-image: url($file) 0 10 10 repeat;
+				-o-border-image: url($file) 0 10 10 repeat;
+				border-image: url($file) 0 10 10 fill repeat;
 
 				padding-bottom: 0.33em;
 
@@ -170,12 +209,13 @@ html {
 						color: $main-color-dark;
 						padding-bottom: 0.33em;
 
+						$file: "./images/borders/h3-frieze.png";
 						border-style: solid;
 						border-width: 0 0 6px;
-						-moz-border-image: url("./images/border-bottom-small.png") 0 0 12 repeat;
-						-webkit-border-image: url("./images/border-bottom-small.png") 0 0 12 repeat;
-						-o-border-image: url("./images/border-bottom-small.png") 0 0 12 repeat;
-						border-image: url("./images/border-bottom-small.png") 0 0 12 fill repeat;
+						-moz-border-image: url($file) 0 0 12 repeat;
+						-webkit-border-image: url($file) 0 0 12 repeat;
+						-o-border-image: url($file) 0 0 12 repeat;
+						border-image: url($file) 0 0 12 fill repeat;
 					}
 
 					figure {
