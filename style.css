@@ -1,0 +1,137 @@
+@charset "UTF-8";
+/**
+ * @author Étienne Gauvin <etienne@gauvin.info>
+ */
+html {
+  font-family: "Hack", "Georgia", serif;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+  html * {
+    -webkit-box-sizing: inherit;
+    -moz-box-sizing: inherit;
+    box-sizing: inherit; }
+  html body {
+    background-color: #FFF;
+    margin: 0;
+    padding: 0; }
+    html body > header {
+      background-color: #1a2e35;
+      border-style: solid;
+      border-width: 0px 0px 12px;
+      -moz-border-image: url("./images/frieze.png") 0 0 12 repeat;
+      -webkit-border-image: url("./images/frieze.png") 0 0 12 repeat;
+      -o-border-image: url("./images/frieze.png") 0 0 12 repeat;
+      border-image: url("./images/frieze.png") 0 0 12 fill repeat; }
+      html body > header h1 {
+        width: 100%;
+        margin: 0 auto;
+        padding-top: 30px;
+        padding-bottom: 36px;
+        color: white;
+        font-size: 1.5em; }
+        @media (max-width: 479px) {
+          html body > header h1 {
+            padding-left: 30px;
+            padding-right: 30px; } }
+        @media (min-width: 480px) {
+          html body > header h1 {
+            width: 66%; } }
+        @media (min-width: 1200px) {
+          html body > header h1 {
+            width: 33%; } }
+        html body > header h1 small {
+          display: block;
+          color: #57c497;
+          text-shadow: 0 2px 0 rgba(0, 0, 0, 0.5);
+          margin-top: 30px; }
+          html body > header h1 small span {
+            display: none; }
+        @media (min-width: 1200px) {
+          html body > header h1 {
+            display: flex;
+            justify-content: space-between;
+            align-items: center; }
+            html body > header h1 small {
+              margin-top: 0; } }
+    html body > main {
+      width: 100%;
+      margin: 0 auto;
+      background-color: white; }
+      @media (max-width: 479px) {
+        html body > main {
+          padding-left: 30px;
+          padding-right: 30px; } }
+      @media (min-width: 480px) {
+        html body > main {
+          width: 66%; } }
+      @media (min-width: 1200px) {
+        html body > main {
+          width: 33%; } }
+      html body > main h2 {
+        color: #e05a5a;
+        font-size: 1.5em;
+        text-transform: uppercase;
+        border-style: solid;
+        border-width: 0px 10px 10px;
+        -moz-border-image: url("./images/border-bottom.png") 0 10 10 repeat;
+        -webkit-border-image: url("./images/border-bottom.png") 0 10 10 repeat;
+        -o-border-image: url("./images/border-bottom.png") 0 10 10 repeat;
+        border-image: url("./images/border-bottom.png") 0 10 10 fill repeat;
+        padding-bottom: 0.33em; }
+        html body > main h2:before {
+          content: "# ";
+          text-transform: lowercase;
+          color: #b83243; }
+      html body > main a {
+        color: #b83243;
+        text-decoration: inherit; }
+        html body > main a img {
+          opacity: 0.8;
+          transition: opacity 200ms; }
+        html body > main a:hover, html body > main a:focus {
+          color: #e05a5a;
+          text-decoration: underline; }
+          html body > main a:hover img, html body > main a:focus img {
+            opacity: 1; }
+        html body > main a.important-link {
+          display: block;
+          margin: 30px 0;
+          text-align: center; }
+      html body > main ul {
+        list-style: none;
+        margin: 30px 0;
+        padding: 0; }
+        html body > main ul.perso > li, html body > main ul.pro > li {
+          margin: 0;
+          color: #1a2e35; }
+          html body > main ul.perso > li:not(:last-child), html body > main ul.pro > li:not(:last-child) {
+            margin-bottom: 30px; }
+          html body > main ul.perso > li h3, html body > main ul.pro > li h3 {
+            color: #265954;
+            padding-bottom: 0.33em;
+            border-style: solid;
+            border-width: 0 0 6px;
+            -moz-border-image: url("./images/border-bottom-small.png") 0 0 12 repeat;
+            -webkit-border-image: url("./images/border-bottom-small.png") 0 0 12 repeat;
+            -o-border-image: url("./images/border-bottom-small.png") 0 0 12 repeat;
+            border-image: url("./images/border-bottom-small.png") 0 0 12 fill repeat; }
+          html body > main ul.perso > li figure, html body > main ul.pro > li figure {
+            padding: 0;
+            margin: 0; }
+          html body > main ul.perso > li img, html body > main ul.pro > li img {
+            max-width: 100%;
+            height: auto; }
+        html body > main ul.tools {
+          max-width: 100%;
+          overflow-x: scroll;
+          padding: 0 0 30px;
+          display: flex;
+          align-items: center; }
+          html body > main ul.tools li:not(:last-child) {
+            margin-right: 30px; }
+          html body > main ul.tools li a img {
+            max-height: 100px;
+            width: auto; }
+
+/*# sourceMappingURL=style.css.map */

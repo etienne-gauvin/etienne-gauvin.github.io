@@ -1,0 +1,216 @@
+/**
+ * @author Étienne Gauvin <etienne@gauvin.info>
+ */
+
+$gutter: 30px;
+
+$main-color-light: #57c497;
+$main-color: #378a6e;
+$main-color-dark: #265954;
+$main-color-darker: #1a2e35;
+
+$secondary-color-light: #fca897;
+$secondary-color: #e05a5a;
+$secondary-color-dark: #b83243;
+
+$breakpoint-small: 480px;
+$breakpoint-medium: 1200px;
+
+@mixin adapt-to-screen {
+	width: 100%;
+	margin: 0 auto;
+
+	@media (max-width: ($breakpoint-small - 1px)) {
+		padding-left: $gutter;
+		padding-right: $gutter;
+	}
+
+	@media (min-width: $breakpoint-small) {
+		width: 66%;
+	}
+
+	@media (min-width: $breakpoint-medium) {
+		width: 33%;
+	}
+}
+
+html {
+	font-family: "Hack", "Georgia", serif;
+
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	
+	* {
+		-webkit-box-sizing: inherit;
+		-moz-box-sizing: inherit;
+        box-sizing: inherit;
+	}
+
+	body {
+		background-color: #FFF;
+		margin: 0;
+		padding: 0;
+		
+		& > header {
+			$frieze-height: 12px;
+			$frieze-height-unitless: $frieze-height / ($frieze-height * 0 + 1);
+
+			background-color: $main-color-darker;
+			border-style: solid;
+			border-width: 0px 0px $frieze-height;
+			-moz-border-image: url("./images/frieze.png") 0 0 $frieze-height-unitless repeat;
+			-webkit-border-image: url("./images/frieze.png") 0 0 $frieze-height-unitless repeat;
+			-o-border-image: url("./images/frieze.png") 0 0 $frieze-height-unitless repeat;
+			border-image: url("./images/frieze.png") 0 0 $frieze-height-unitless fill repeat;
+			
+			h1 {
+				@include adapt-to-screen;
+
+				padding-top: $gutter;
+				padding-bottom: ($gutter + $frieze-height / 2);
+
+				color: white;
+				font-size: 1.5em;
+
+				small { 
+					span {
+						display: none;
+					}
+
+					display: block;
+					color: $main-color-light;
+					text-shadow: 0 2px 0 transparentize(black, 0.5);
+					margin-top: $gutter;
+				}
+
+				@media (min-width: $breakpoint-medium) {
+					display: flex;
+	    			justify-content: space-between;
+	    			align-items: center;
+
+	    			small {
+	    				margin-top: 0;
+	    			}
+				}
+			}
+		}
+
+		& > main {
+			@include adapt-to-screen;
+
+			background-color: white;
+
+			h2 {
+				color: $secondary-color;
+				font-size: 1.5em;
+				text-transform: uppercase;
+
+				border-style: solid;
+				border-width: 0px 10px 10px;
+				-moz-border-image: url("./images/border-bottom.png") 0 10 10 repeat;
+				-webkit-border-image: url("./images/border-bottom.png") 0 10 10 repeat;
+				-o-border-image: url("./images/border-bottom.png") 0 10 10 repeat;
+				border-image: url("./images/border-bottom.png") 0 10 10 fill repeat;
+
+				padding-bottom: 0.33em;
+
+				&:before {
+					content: "# ";
+					text-transform: lowercase;
+					color: $secondary-color-dark;
+				}
+			}
+
+			a {
+				color: $secondary-color-dark;
+				text-decoration: inherit;
+				
+				img {
+					opacity: 0.8;
+					transition: opacity 200ms;
+				}
+			
+				&:hover, &:focus {
+					color: $secondary-color;
+					text-decoration: underline;
+
+					img {
+						opacity: 1;
+					}
+				}
+
+				&.important-link {
+					display: block;
+					margin: $gutter 0;
+					text-align: center;
+				}
+			}
+
+			ul {
+				list-style: none;
+				margin: $gutter 0;
+				padding: 0;
+
+				li {
+
+				}
+
+				&.perso > li,
+				&.pro > li {
+					margin: 0;
+
+					&:not(:last-child) {
+						margin-bottom: $gutter;
+					}
+
+					color: $main-color-darker;
+
+					h3 {
+						color: $main-color-dark;
+						padding-bottom: 0.33em;
+
+						border-style: solid;
+						border-width: 0 0 6px;
+						-moz-border-image: url("./images/border-bottom-small.png") 0 0 12 repeat;
+						-webkit-border-image: url("./images/border-bottom-small.png") 0 0 12 repeat;
+						-o-border-image: url("./images/border-bottom-small.png") 0 0 12 repeat;
+						border-image: url("./images/border-bottom-small.png") 0 0 12 fill repeat;
+					}
+
+					figure {
+						padding: 0;
+						margin: 0;
+					}
+					
+					img {
+						max-width: 100%;
+						height: auto;
+					}
+				}
+
+				&.tools {
+					max-width: 100%;
+					overflow-x: scroll;
+					padding: 0 0 $gutter;
+					display: flex;
+					align-items: center;
+
+					li {
+
+						&:not(:last-child) {
+							margin-right: $gutter;
+						}
+
+						a {
+							img {
+								max-height: 100px;
+								width: auto;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

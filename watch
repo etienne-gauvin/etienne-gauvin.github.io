@@ -1,0 +1,3 @@
+#!/bin/bash
+
+watchify src/js/script.js -t [ babelify ] --debug -o js/script.min.js
