@@ -229,6 +229,18 @@ html {
 					}
 				}
 
+				&.technos {
+					margin: ($gutter / 2) 0;
+
+					li {
+						display: inline-block;
+						background-color: $secondary-color;
+						color: white;
+						font-size: small;
+						padding: 2px 0.5em;
+					}
+				}
+
 				&.tools {
 					max-width: 100%;
 					overflow-x: scroll;
