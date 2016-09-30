@@ -221,6 +221,22 @@ html {
 					figure {
 						padding: 0;
 						margin: 0;
+
+						&.inline {
+							display: flex;
+
+							> * {
+								margin-left: $gutter;
+							}
+
+							> :first-child {
+								margin-left: 0;
+							}
+
+							img {
+								width: auto;
+							}
+						}
 					}
 					
 					img {
